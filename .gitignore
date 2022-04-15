@@ -67,9 +67,20 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#WWise files
+.cache/
+*.akd
+*.prof
+*.validationcache
+*.wem
+
+
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# WWise project file
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
