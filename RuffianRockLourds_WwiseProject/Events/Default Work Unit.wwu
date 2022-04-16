@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{733729CC-F20B-4196-A03B-01412051452F}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{733729CC-F20B-4196-A03B-01412051452F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{733729CC-F20B-4196-A03B-01412051452F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Dig" ID="{A46A32A7-E7A3-49BC-B794-25B8658A73C9}">
+					<ChildrenList>
+						<Action Name="" ID="{F3FDA220-F14A-431A-A867-E6C60CC88F38}" ShortID="252454899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dig Chime" ID="{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}">
+					<ChildrenList>
+						<Action Name="" ID="{91A222C5-F6AE-4B07-8C5D-CBAF41CC7142}" ShortID="392469970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{10D9603F-D738-4CB3-9C65-D6BF8575BDC2}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

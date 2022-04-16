@@ -4,11 +4,39 @@
 		<WorkUnit Name="Default Work Unit" ID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{01ECEE77-A4BE-4E6E-9627-F6BFA9054713}" WorkUnitID="{8EBFE315-F2E2-44A1-8FE8-71F29BD65F50}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SynthChords" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Strings" ID="{8120CBA7-33A7-4A1B-B45F-CA672C32337E}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="MStrings" ID="{0221C463-0C49-4524-A11E-0259E3761F4F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Roots" ID="{BFB63CDA-FC23-4CE9-8973-8477C250FDD7}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
