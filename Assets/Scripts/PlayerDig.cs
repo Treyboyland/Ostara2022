@@ -8,13 +8,13 @@ public class PlayerDig : MonoBehaviour
     PlayerController playerController;
 
     [SerializeField]
-    float digTime;
+    public float digTime;
 
     [SerializeField]
     PlayerRaycast leftRaycast, rightRayCast, topRaycast, bottomRaycast;
 
     Ground currentGround;
-
+    
     private void Update()
     {
         CheckDigging();
