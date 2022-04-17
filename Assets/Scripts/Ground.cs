@@ -11,11 +11,18 @@ public class Ground : MonoBehaviour
     [SerializeField]
     Collider2D groundCollider;
 
+    [SerializeField]
+    AK.Wwise.Event digSoundEvent;
+
     public UnityEvent OnDirtBroken;
 
     bool isDigging = false;
 
     bool isDugOut = false;
+
+    Vector3 location;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +44,12 @@ public class Ground : MonoBehaviour
         }
     }
 
+    public void SetLocation(Vector3 location)
+    {
+        this.location = location;
+        transform.position = location;
+    }
+
     public void StopDigging()
     {
         isDigging = false;
@@ -55,6 +68,7 @@ public class Ground : MonoBehaviour
         groundCollider.enabled = false;
         frontSprite.enabled = false;
         isDugOut = true;
+        digSoundEvent.Post(gameObject);
     }
 
     IEnumerator DiggingCoroutine(float secondsToWait)

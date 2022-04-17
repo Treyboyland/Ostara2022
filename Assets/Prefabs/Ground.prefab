@@ -96,7 +96,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5046000129670905923}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5f666cee340adc646aca3132e4afce86, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -127,6 +127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontSprite: {fileID: 5046000129670905920}
   groundCollider: {fileID: 5046000129670905926}
+  digSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8664296895fce014a9708dfc4f540e8d, type: 2}
   OnDirtBroken:
     m_PersistentCalls:
       m_Calls:
