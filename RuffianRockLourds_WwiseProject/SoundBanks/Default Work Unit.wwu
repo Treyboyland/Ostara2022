@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5AE626C6-E56B-4F7C-B368-6EEAB3217ABF}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{5AE626C6-E56B-4F7C-B368-6EEAB3217ABF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5AE626C6-E56B-4F7C-B368-6EEAB3217ABF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AllInOne" ID="{5EFE78C3-E813-4071-8873-D8EE9F0AF31F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dig" ID="{A46A32A7-E7A3-49BC-B794-25B8658A73C9}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

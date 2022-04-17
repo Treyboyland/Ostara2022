@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
@@ -571,28 +571,6 @@
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{11E0B22A-ECBC-41DE-ACC6-11C54E5C4775}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="StringsA#Mj_70BPM3Lh" ID="{9A6B284F-CAA4-4E07-BDF2-F1F97AA2CCF8}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2291666667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="StringsA#Mj_70BPM3Lh" ID="{C1AB0776-6917-4350-93E5-21F52954E9FE}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
 										</ObjectList>
 									</ObjectLists>
 								</MusicTrack>
@@ -657,13 +635,6 @@
 											<AudioFile>MStringsA#Mj_70BPM3Lg.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="80947275"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="MStringsA#Mj_70BPM3Lh" ID="{F9A1A2ED-AA06-4FE2-9D1C-655FFFA93677}">
-											<Language>SFX</Language>
-											<AudioFile>MStringsA#Mj_70BPM3Lh.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="237970258"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -823,28 +794,6 @@
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="MStringsA#Mj_70BPM3Lg" ID="{F5600C53-EF19-4648-93AB-2D9345EFC6FF}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{6963CA95-1DEB-4C68-9EC4-99679266EAA0}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="MStringsA#Mj_70BPM3Lh" ID="{A83926FD-1118-4E0B-8651-360EFC777A5C}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="13714.2291666667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="MStringsA#Mj_70BPM3Lh" ID="{F9A1A2ED-AA06-4FE2-9D1C-655FFFA93677}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -3803,11 +3752,6 @@
 								</MusicTrack>
 								<MusicTrack Name="G#MStrings" ID="{68239D1B-C297-418F-A16B-DCC61B66D3A3}" ShortID="423214429">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4362,7 +4306,7 @@
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 								<Property Name="PlayMode" Type="int16" Value="2"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{4E4D6D1E-8939-42D5-8823-72C75B395142}" ShortID="534439839">
@@ -4419,7 +4363,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
