@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1fc2fe8bae5a30488cc02c67deea9b6, type: 3}
+  m_Name: A46A32A7-E7A3-49BC-B794-25B8658A73C9
+  m_EditorClassIdentifier: 
+  objectName: Dig
+  id: 445985471
+  guid: A46A32A7-E7A3-49BC-B794-25B8658A73C9
