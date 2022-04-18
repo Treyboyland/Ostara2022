@@ -584,6 +584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 427647958261079020, guid: b007d953eaf9f1343a462ab850e45e46, type: 3}
+      propertyPath: depthRTPCSlewed.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f73b541122a7e4f44b6d50f3ff5510f0, type: 2}
     - target: {fileID: 3015217150368946157, guid: b007d953eaf9f1343a462ab850e45e46, type: 3}
       propertyPath: m_RootOrder
       value: 1
