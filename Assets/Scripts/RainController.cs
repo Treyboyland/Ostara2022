@@ -17,6 +17,12 @@ public class RainController : MonoBehaviour
     [SerializeField]
     float rainStartProbability;
 
+    [SerializeField]
+    AK.Wwise.Event stormPlayEvent;
+
+    [SerializeField]
+    AK.Wwise.Event stormStopEvent;
+
     private void Start()
     {
         StartCoroutine(RainCoroutine());
@@ -39,14 +45,17 @@ public class RainController : MonoBehaviour
         if (rainStart <= rainStartProbability)
         {
             rain.Play();
+            stormPlayEvent.Post(gameObject);
             yield return new WaitForSeconds(GetRandomRainTime());
         }
 
         while (true)
         {
             rain.Stop();
+            stormStopEvent.Post(gameObject);
             yield return new WaitForSeconds(GetRandomWaitTime());
             rain.Play();
+            stormPlayEvent.Post(gameObject);
             yield return new WaitForSeconds(GetRandomRainTime());
         }
     }

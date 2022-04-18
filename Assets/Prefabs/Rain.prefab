@@ -50,6 +50,14 @@ MonoBehaviour:
   secondsToRain: {x: 20, y: 60}
   secondsToWait: {x: 20, y: 60}
   rainStartProbability: 0.6
+  stormPlayEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7ca687cfc42f25442baa4c445932caf7, type: 2}
+  stormStopEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 553fd54b56e6d504ca31059da1cb3db9, type: 2}
 --- !u!199 &4947590843725404328
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -4871,7 +4879,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
