@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a196b96e4c9b87b41bca2cee7d8feac9, type: 3}
+  m_Name: 6E00ED25-B4C3-4161-8338-1C78525A9EAE
+  m_EditorClassIdentifier: 
+  objectName: DigTime
+  id: 1136081764
+  guid: 6E00ED25-B4C3-4161-8338-1C78525A9EAE

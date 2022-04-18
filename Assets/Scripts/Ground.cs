@@ -14,6 +14,9 @@ public class Ground : MonoBehaviour
     [SerializeField]
     AK.Wwise.Event digSoundEvent;
 
+    [SerializeField]
+    AK.Wwise.RTPC digTimeRTPC;
+
     public UnityEvent OnDirtBroken;
 
     bool isDigging = false;
@@ -54,6 +57,7 @@ public class Ground : MonoBehaviour
     {
         isDigging = false;
         StopAllCoroutines();
+        digTimeRTPC.SetGlobalValue(0);
     }
 
     void ResetGround()
@@ -74,8 +78,18 @@ public class Ground : MonoBehaviour
     IEnumerator DiggingCoroutine(float secondsToWait)
     {
         isDigging = true;
-        yield return new WaitForSeconds(secondsToWait);
+        float elapsed = 0;
+        while (elapsed < secondsToWait)
+        {
+            elapsed += Time.deltaTime;
+            float progress = elapsed / secondsToWait * 100;
+            digTimeRTPC.SetGlobalValue(Mathf.Min(progress, 100));
+            yield return null;
+        }
+
+
         DigOut();
+        digTimeRTPC.SetGlobalValue(0);
         isDigging = false;
         OnDirtBroken.Invoke();
     }
