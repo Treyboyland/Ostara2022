@@ -3,8 +3,23 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}"/>
+				<GameParameter Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}"/>
+				<GameParameter Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

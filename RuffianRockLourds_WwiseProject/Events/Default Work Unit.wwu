@@ -25,6 +25,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}">
+					<ChildrenList>
+						<Action Name="" ID="{1DF6BD5C-B50C-4DAC-822B-F8A6A74FA34A}" ShortID="872075449">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}">
+					<ChildrenList>
+						<Action Name="" ID="{4BE6E156-9B99-4675-8B99-84F462F61E5C}" ShortID="384450283">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

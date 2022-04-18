@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="AllInOne" ID="{5EFE78C3-E813-4071-8873-D8EE9F0AF31F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Dig" ID="{A46A32A7-E7A3-49BC-B794-25B8658A73C9}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

@@ -6,6 +6,8 @@ public class PostDepthRTPC : MonoBehaviour
 {
     [SerializeField]
     AK.Wwise.RTPC depthRTPC;
+    [SerializeField]
+    AK.Wwise.RTPC depthRTPCSlewed;
 
     [SerializeField]
     bool useAbsoluteValue;
@@ -38,6 +40,7 @@ public class PostDepthRTPC : MonoBehaviour
             }
             depth *= depthMultiplier;
             depthRTPC.SetGlobalValue(depth);
+            depthRTPCSlewed.SetGlobalValue(depth);
         }
     }
 }

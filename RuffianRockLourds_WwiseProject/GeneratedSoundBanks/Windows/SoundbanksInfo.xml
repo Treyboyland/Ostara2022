@@ -11,12 +11,16 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1959700931">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3705078758">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1655984259" Name="PlayerDepthSlewed" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepthSlewed"/>
+				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="2465424157">
+		<SoundBank Id="2858921253" Language="SFX" Hash="1825477095">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -35,6 +39,10 @@
 							<ShortName>Dig1D#2.wav</ShortName>
 							<Path>SFX\Dig1D#2_9EDFC787.wem</Path>
 						</File>
+						<File Id="94716250" Language="SFX">
+							<ShortName>Dig4C5.wav</ShortName>
+							<Path>SFX\Dig4C5_9EDFC787.wem</Path>
+						</File>
 						<File Id="140451153" Language="SFX">
 							<ShortName>Dig4C4.wav</ShortName>
 							<Path>SFX\Dig4C4_9EDFC787.wem</Path>
@@ -42,6 +50,10 @@
 						<File Id="169381256" Language="SFX">
 							<ShortName>Dig4F4.wav</ShortName>
 							<Path>SFX\Dig4F4_9EDFC787.wem</Path>
+						</File>
+						<File Id="255854322" Language="SFX">
+							<ShortName>Dig4A#4.wav</ShortName>
+							<Path>SFX\Dig4A#4_9EDFC787.wem</Path>
 						</File>
 						<File Id="352926608" Language="SFX">
 							<ShortName>Dig4D#4.wav</ShortName>
@@ -55,6 +67,10 @@
 							<ShortName>Dig3F#3.wav</ShortName>
 							<Path>SFX\Dig3F#3_9EDFC787.wem</Path>
 						</File>
+						<File Id="533381913" Language="SFX">
+							<ShortName>Dig1A#1.wav</ShortName>
+							<Path>SFX\Dig1A#1_9EDFC787.wem</Path>
+						</File>
 						<File Id="613927400" Language="SFX">
 							<ShortName>Dig1F#2.wav</ShortName>
 							<Path>SFX\Dig1F#2_9EDFC787.wem</Path>
@@ -67,6 +83,14 @@
 							<ShortName>Dig3G#3.wav</ShortName>
 							<Path>SFX\Dig3G#3_9EDFC787.wem</Path>
 						</File>
+						<File Id="757398966" Language="SFX">
+							<ShortName>Dig1C#2.wav</ShortName>
+							<Path>SFX\Dig1C#2_9EDFC787.wem</Path>
+						</File>
+						<File Id="783588957" Language="SFX">
+							<ShortName>Dig4C#5.wav</ShortName>
+							<Path>SFX\Dig4C#5_9EDFC787.wem</Path>
+						</File>
 						<File Id="787925102" Language="SFX">
 							<ShortName>Dig4C#4.wav</ShortName>
 							<Path>SFX\Dig4C#4_9EDFC787.wem</Path>
@@ -75,13 +99,25 @@
 							<ShortName>Dig3a#3.wav</ShortName>
 							<Path>SFX\Dig3a#3_9EDFC787.wem</Path>
 						</File>
+						<File Id="891771893" Language="SFX">
+							<ShortName>Dig1G#1.wav</ShortName>
+							<Path>SFX\Dig1G#1_9EDFC787.wem</Path>
+						</File>
 						<File Id="923350989" Language="SFX">
 							<ShortName>Dig1G#2.wav</ShortName>
 							<Path>SFX\Dig1G#2_9EDFC787.wem</Path>
 						</File>
+						<File Id="974064556" Language="SFX">
+							<ShortName>Dig1C2.wav</ShortName>
+							<Path>SFX\Dig1C2_9EDFC787.wem</Path>
+						</File>
 						<File Id="1017498005" Language="SFX">
 							<ShortName>Dig2C3.wav</ShortName>
 							<Path>SFX\Dig2C3_9EDFC787.wem</Path>
+						</File>
+						<File Id="1036479616" Language="SFX">
+							<ShortName>Dig4G#4.wav</ShortName>
+							<Path>SFX\Dig4G#4_9EDFC787.wem</Path>
 						</File>
 						<File Id="1046856046" Language="SFX">
 							<ShortName>Dig2D#3.wav</ShortName>
@@ -111,13 +147,29 @@
 							<ShortName>StringsC#Mj_70BPM3Le.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3Le_9EDFC787.wem</Path>
 						</File>
+						<File Id="23049690" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Lh.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
+						<File Id="36358465" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Ld.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
 						<File Id="36702942" Language="SFX">
 							<ShortName>ChordEbMin_70BPM3La.wav</ShortName>
 							<Path>SFX\ChordEbMin_70BPM3La_9EDFC787.wem</Path>
 						</File>
+						<File Id="37539728" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Lc.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Lc_9EDFC787.wem</Path>
+						</File>
 						<File Id="41445766" Language="SFX">
 							<ShortName>RootG#M_70BPM3L .wav</ShortName>
 							<Path>SFX\RootG#M_70BPM3L _9EDFC787.wem</Path>
+						</File>
+						<File Id="52150360" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Lb.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Lb_9EDFC787.wem</Path>
 						</File>
 						<File Id="55873001" Language="SFX">
 							<ShortName>MStringsF#Maj_70BPM3Lh.wav</ShortName>
@@ -127,6 +179,10 @@
 							<ShortName>StringsF#Maj_70BPM3Le.wav</ShortName>
 							<Path>SFX\StringsF#Maj_70BPM3Le_9EDFC787.wem</Path>
 						</File>
+						<File Id="63234038" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Le.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Le_9EDFC787.wem</Path>
+						</File>
 						<File Id="68151944" Language="SFX">
 							<ShortName>ChordEbMin_70BPM3Ld.wav</ShortName>
 							<Path>SFX\ChordEbMin_70BPM3Ld_9EDFC787.wem</Path>
@@ -135,9 +191,21 @@
 							<ShortName>StringsG#Mj_70BPM3Lb.wav</ShortName>
 							<Path>SFX\StringsG#Mj_70BPM3Lb_9EDFC787.wem</Path>
 						</File>
+						<File Id="80393856" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Lc.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Lc_9EDFC787.wem</Path>
+						</File>
 						<File Id="80947275" Language="SFX">
 							<ShortName>MStringsA#Mj_70BPM3Lg.wav</ShortName>
 							<Path>SFX\MStringsA#Mj_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
+						<File Id="81823249" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Lf.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
+						<File Id="85504758" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Lh.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Lh_9EDFC787.wem</Path>
 						</File>
 						<File Id="89031792" Language="SFX">
 							<ShortName>StringsA#Mj_70BPM3Lg.wav</ShortName>
@@ -146,6 +214,14 @@
 						<File Id="95912863" Language="SFX">
 							<ShortName>ChordG#M_70BPM3Lc.wav</ShortName>
 							<Path>SFX\ChordG#M_70BPM3Lc_9EDFC787.wem</Path>
+						</File>
+						<File Id="100458330" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Le.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Le_9EDFC787.wem</Path>
+						</File>
+						<File Id="100887917" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Lc.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Lc_9EDFC787.wem</Path>
 						</File>
 						<File Id="103974899" Language="SFX">
 							<ShortName>ChordF#Maj_70BPM3Lc.wav</ShortName>
@@ -163,6 +239,10 @@
 							<ShortName>ChordC#Maj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\ChordC#Maj_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
+						<File Id="116297015" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Lg.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
 						<File Id="118006523" Language="SFX">
 							<ShortName>MStringsA#Mj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\MStringsA#Mj_70BPM3Lf_9EDFC787.wem</Path>
@@ -179,9 +259,17 @@
 							<ShortName>StringsF#Maj_70BPM3Lh.wav</ShortName>
 							<Path>SFX\StringsF#Maj_70BPM3Lh_9EDFC787.wem</Path>
 						</File>
+						<File Id="190132269" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Lg.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
 						<File Id="196731550" Language="SFX">
 							<ShortName>ChordA#m_70BPM3Lb.wav</ShortName>
 							<Path>SFX\ChordA#m_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="202734700" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Lf.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
 						<File Id="218529159" Language="SFX">
 							<ShortName>MStringsF#Maj_70BPM3Lb.wav</ShortName>
@@ -191,9 +279,9 @@
 							<ShortName>StringsG#Mj_70BPM3La.wav</ShortName>
 							<Path>SFX\StringsG#Mj_70BPM3La_9EDFC787.wem</Path>
 						</File>
-						<File Id="237970258" Language="SFX">
-							<ShortName>MStringsA#Mj_70BPM3Lh.wav</ShortName>
-							<Path>SFX\MStringsA#Mj_70BPM3Lh_9EDFC787.wem</Path>
+						<File Id="223426573" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Lf.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
 						<File Id="243604469" Language="SFX">
 							<ShortName>StringsF#Maj_70BPM3Lb.wav</ShortName>
@@ -215,6 +303,10 @@
 							<ShortName>ChordC#Maj_70BPM3La.wav</ShortName>
 							<Path>SFX\ChordC#Maj_70BPM3La_9EDFC787.wem</Path>
 						</File>
+						<File Id="278831159" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Lh.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
 						<File Id="279720051" Language="SFX">
 							<ShortName>StringsC#Mj_70BPM3La.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3La_9EDFC787.wem</Path>
@@ -223,9 +315,17 @@
 							<ShortName>StringsC#Mj_70BPM3Ld.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3Ld_9EDFC787.wem</Path>
 						</File>
+						<File Id="280634757" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Ld.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
 						<File Id="284543777" Language="SFX">
 							<ShortName>ChordEbMin_70BPM3Lc.wav</ShortName>
 							<Path>SFX\ChordEbMin_70BPM3Lc_9EDFC787.wem</Path>
+						</File>
+						<File Id="292961083" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Lc.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Lc_9EDFC787.wem</Path>
 						</File>
 						<File Id="293397331" Language="SFX">
 							<ShortName>ChordF#Maj_70BPM3Le.wav</ShortName>
@@ -246,6 +346,10 @@
 						<File Id="304294821" Language="SFX">
 							<ShortName>StringsA#Mj_70BPM3Ld.wav</ShortName>
 							<Path>SFX\StringsA#Mj_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
+						<File Id="306527224" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3La.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3La_9EDFC787.wem</Path>
 						</File>
 						<File Id="309340508" Language="SFX">
 							<ShortName>RootC#Maj_70BPM3L.wav</ShortName>
@@ -303,9 +407,17 @@
 							<ShortName>ChordG#M_70BPM3La.wav</ShortName>
 							<Path>SFX\ChordG#M_70BPM3La_9EDFC787.wem</Path>
 						</File>
+						<File Id="375407738" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3La.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3La_9EDFC787.wem</Path>
+						</File>
 						<File Id="385879110" Language="SFX">
 							<ShortName>StringsE#mj_70BPM3Lh.wav</ShortName>
 							<Path>SFX\StringsE#mj_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
+						<File Id="396216682" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Lf.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
 						<File Id="402500284" Language="SFX">
 							<ShortName>StringsG#Mj_70BPM3Lg.wav</ShortName>
@@ -319,6 +431,10 @@
 							<ShortName>ChordA#m_70BPM3Le.wav</ShortName>
 							<Path>SFX\ChordA#m_70BPM3Le_9EDFC787.wem</Path>
 						</File>
+						<File Id="434484398" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Le.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Le_9EDFC787.wem</Path>
+						</File>
 						<File Id="445146657" Language="SFX">
 							<ShortName>StringsA#Mj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\StringsA#Mj_70BPM3Lf_9EDFC787.wem</Path>
@@ -326,6 +442,18 @@
 						<File Id="446585025" Language="SFX">
 							<ShortName>MStringsA#Mj_70BPM3Le.wav</ShortName>
 							<Path>SFX\MStringsA#Mj_70BPM3Le_9EDFC787.wem</Path>
+						</File>
+						<File Id="447542208" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Lh.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
+						<File Id="454122790" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Lb.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="464193478" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Le.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Le_9EDFC787.wem</Path>
 						</File>
 						<File Id="476469736" Language="SFX">
 							<ShortName>MStringsA#Mj_70BPM3La.wav</ShortName>
@@ -343,9 +471,17 @@
 							<ShortName>MStringsF#Maj_70BPM3Lc.wav</ShortName>
 							<Path>SFX\MStringsF#Maj_70BPM3Lc_9EDFC787.wem</Path>
 						</File>
+						<File Id="492232616" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Lh.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
 						<File Id="518452694" Language="SFX">
 							<ShortName>ChordC#Maj_70BPM3Ld.wav</ShortName>
 							<Path>SFX\ChordC#Maj_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
+						<File Id="538850157" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Lc.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Lc_9EDFC787.wem</Path>
 						</File>
 						<File Id="548497998" Language="SFX">
 							<ShortName>StringsF#Maj_70BPM3L.wav</ShortName>
@@ -371,9 +507,21 @@
 							<ShortName>StringsC#Mj_70BPM3Lh.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3Lh_9EDFC787.wem</Path>
 						</File>
+						<File Id="600655047" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Lg.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
 						<File Id="601640272" Language="SFX">
 							<ShortName>StringsC#Mj_70BPM3Lg.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
+						<File Id="605662499" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Lg.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
+						<File Id="609211023" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Lg.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Lg_9EDFC787.wem</Path>
 						</File>
 						<File Id="623995603" Language="SFX">
 							<ShortName>StringsF#Maj_70BPM3Ld.wav</ShortName>
@@ -382,6 +530,10 @@
 						<File Id="630036774" Language="SFX">
 							<ShortName>StringsE#mj_70BPM3La.wav</ShortName>
 							<Path>SFX\StringsE#mj_70BPM3La_9EDFC787.wem</Path>
+						</File>
+						<File Id="636920690" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Le.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Le_9EDFC787.wem</Path>
 						</File>
 						<File Id="638024452" Language="SFX">
 							<ShortName>ChordC#Maj_70BPM3Lh.wav</ShortName>
@@ -395,6 +547,14 @@
 							<ShortName>ChordF#Maj_70BPM3Li.wav</ShortName>
 							<Path>SFX\ChordF#Maj_70BPM3Li_9EDFC787.wem</Path>
 						</File>
+						<File Id="648461658" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Ld.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
+						<File Id="649246088" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Lh.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
 						<File Id="655357826" Language="SFX">
 							<ShortName>ChordA#m_70BPM3Lg.wav</ShortName>
 							<Path>SFX\ChordA#m_70BPM3Lg_9EDFC787.wem</Path>
@@ -402,6 +562,18 @@
 						<File Id="659663482" Language="SFX">
 							<ShortName>StringsE#mj_70BPM3Le.wav</ShortName>
 							<Path>SFX\StringsE#mj_70BPM3Le_9EDFC787.wem</Path>
+						</File>
+						<File Id="667286367" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Lf.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
+						<File Id="688489412" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Lb.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="691848859" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Lc.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Lc_9EDFC787.wem</Path>
 						</File>
 						<File Id="697626426" Language="SFX">
 							<ShortName>ChordA#m_70BPM3Lf.wav</ShortName>
@@ -411,6 +583,14 @@
 							<ShortName>ChordG#M_70BPM3Lg.wav</ShortName>
 							<Path>SFX\ChordG#M_70BPM3Lg_9EDFC787.wem</Path>
 						</File>
+						<File Id="702456951" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Le.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Le_9EDFC787.wem</Path>
+						</File>
+						<File Id="715376401" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Lg.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
 						<File Id="730180464" Language="SFX">
 							<ShortName>MStringsE#mj_70BPM3Le.wav</ShortName>
 							<Path>SFX\MStringsE#mj_70BPM3Le_9EDFC787.wem</Path>
@@ -419,25 +599,61 @@
 							<ShortName>MStringsF#Maj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\MStringsF#Maj_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
+						<File Id="764059579" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3La.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3La_9EDFC787.wem</Path>
+						</File>
 						<File Id="765267856" Language="SFX">
 							<ShortName>ChordEbMin_70BPM3Lf.wav</ShortName>
 							<Path>SFX\ChordEbMin_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
+						<File Id="765720293" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3La.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3La_9EDFC787.wem</Path>
 						</File>
 						<File Id="770180488" Language="SFX">
 							<ShortName>StringsF#Maj_70BPM3La.wav</ShortName>
 							<Path>SFX\StringsF#Maj_70BPM3La_9EDFC787.wem</Path>
 						</File>
+						<File Id="773084175" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Lc.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Lc_9EDFC787.wem</Path>
+						</File>
 						<File Id="781343095" Language="SFX">
 							<ShortName>MStringsF#Maj_70BPM3L.wav</ShortName>
 							<Path>SFX\MStringsF#Maj_70BPM3L_9EDFC787.wem</Path>
+						</File>
+						<File Id="788375052" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Ld.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
+						<File Id="803391684" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Lf.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
+						<File Id="814892814" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Lb.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Lb_9EDFC787.wem</Path>
 						</File>
 						<File Id="849572626" Language="SFX">
 							<ShortName>ChordC#Maj_70BPM3Lb.wav</ShortName>
 							<Path>SFX\ChordC#Maj_70BPM3Lb_9EDFC787.wem</Path>
 						</File>
+						<File Id="851998255" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Lb.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
 						<File Id="856099929" Language="SFX">
 							<ShortName>MStringsA#Mj_70BPM3Lb.wav</ShortName>
 							<Path>SFX\MStringsA#Mj_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="861797966" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3Lg.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3Lg_9EDFC787.wem</Path>
+						</File>
+						<File Id="868824719" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3La.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3La_9EDFC787.wem</Path>
 						</File>
 						<File Id="869620515" Language="SFX">
 							<ShortName>ChordA#m_70BPM3Ld.wav</ShortName>
@@ -467,6 +683,10 @@
 							<ShortName>StringsE#mj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\StringsE#mj_70BPM3Lf_9EDFC787.wem</Path>
 						</File>
+						<File Id="894544181" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Ld.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
 						<File Id="910151592" Language="SFX">
 							<ShortName>StringsC#Mj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\StringsC#Mj_70BPM3Lf_9EDFC787.wem</Path>
@@ -479,6 +699,10 @@
 							<ShortName>StringsA#Mj_70BPM3Le.wav</ShortName>
 							<Path>SFX\StringsA#Mj_70BPM3Le_9EDFC787.wem</Path>
 						</File>
+						<File Id="928608954" Language="SFX">
+							<ShortName>SynthHighG#M_70BPM3Lf.wav</ShortName>
+							<Path>SFX\SynthHighG#M_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
 						<File Id="931809077" Language="SFX">
 							<ShortName>RootF#Maj_70BPM3L.wav</ShortName>
 							<Path>SFX\RootF#Maj_70BPM3L_9EDFC787.wem</Path>
@@ -486,6 +710,14 @@
 						<File Id="934646890" Language="SFX">
 							<ShortName>ChordC#Maj_70BPM3Le.wav</ShortName>
 							<Path>SFX\ChordC#Maj_70BPM3Le_9EDFC787.wem</Path>
+						</File>
+						<File Id="943847317" Language="SFX">
+							<ShortName>MStringsC#Mj_70BPM3Lb.wav</ShortName>
+							<Path>SFX\MStringsC#Mj_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="947223475" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Le.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Le_9EDFC787.wem</Path>
 						</File>
 						<File Id="963635262" Language="SFX">
 							<ShortName>ChordEbMin_70BPM3Lh.wav</ShortName>
@@ -499,6 +731,10 @@
 							<ShortName>StringsE#mj_70BPM3Ld.wav</ShortName>
 							<Path>SFX\StringsE#mj_70BPM3Ld_9EDFC787.wem</Path>
 						</File>
+						<File Id="983725847" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3La.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3La_9EDFC787.wem</Path>
+						</File>
 						<File Id="997929111" Language="SFX">
 							<ShortName>StringsA#Mj_70BPM3Lh.wav</ShortName>
 							<Path>SFX\StringsA#Mj_70BPM3Lh_9EDFC787.wem</Path>
@@ -506,6 +742,22 @@
 						<File Id="1000024300" Language="SFX">
 							<ShortName>StringsG#Mj_70BPM3Lf.wav</ShortName>
 							<Path>SFX\StringsG#Mj_70BPM3Lf_9EDFC787.wem</Path>
+						</File>
+						<File Id="1018739742" Language="SFX">
+							<ShortName>SynthHighA#m_70BPM3Lb.wav</ShortName>
+							<Path>SFX\SynthHighA#m_70BPM3Lb_9EDFC787.wem</Path>
+						</File>
+						<File Id="1020464076" Language="SFX">
+							<ShortName>SynthHighEbm_70BPM3Ld.wav</ShortName>
+							<Path>SFX\SynthHighEbm_70BPM3Ld_9EDFC787.wem</Path>
+						</File>
+						<File Id="1030881727" Language="SFX">
+							<ShortName>SynthHighF#Maj_70BPM3Lh.wav</ShortName>
+							<Path>SFX\SynthHighF#Maj_70BPM3Lh_9EDFC787.wem</Path>
+						</File>
+						<File Id="1043241937" Language="SFX">
+							<ShortName>SynthHighC#M_70BPM3Ld.wav</ShortName>
+							<Path>SFX\SynthHighC#M_70BPM3Ld_9EDFC787.wem</Path>
 						</File>
 						<File Id="1045582940" Language="SFX">
 							<ShortName>ChordA#m_70BPM3Lc.wav</ShortName>
@@ -531,9 +783,25 @@
 							<ShortName>ChordEbMin_70BPM3Lg.wav</ShortName>
 							<Path>SFX\ChordEbMin_70BPM3Lg_9EDFC787.wem</Path>
 						</File>
+						<File Id="1072389142" Language="SFX">
+							<ShortName>MStringsG#Mj_70BPM3La.wav</ShortName>
+							<Path>SFX\MStringsG#Mj_70BPM3La_9EDFC787.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="248." DurationMax="248.">
+					<IncludedMemoryFiles>
+						<File Id="98814477" Language="SFX">
+							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
+							<Path>SFX\RainStorm120bpm11E113L_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3723974632" Name="StormStop" ObjectPath="\Events\Default Work Unit\StormStop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

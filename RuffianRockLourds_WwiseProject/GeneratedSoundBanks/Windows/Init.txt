@@ -1,9 +1,22 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1655984259	PlayerDepthSlewed			\Default Work Unit\PlayerDepthSlewed	
+	1755200717	PlayerDepth			\Default Work Unit\PlayerDepth	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	630186068	MStrings			\Default Work Unit\Master Audio Bus\MStrings	
-	1510358672	Roots			\Default Work Unit\Master Audio Bus\Roots	
-	3363523641	Strings			\Default Work Unit\Master Audio Bus\Strings	
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	289101121	SynthHigh			\Default Work Unit\Master Audio Bus\Music\SynthHigh	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	630186068	MStrings			\Default Work Unit\Master Audio Bus\Music\MStrings	
+	1510358672	Roots			\Default Work Unit\Master Audio Bus\Music\Roots	
+	1686739424	Storm			\Default Work Unit\Master Audio Bus\Ambience\Storm	
+	2230590204	DigChimes			\Default Work Unit\Master Audio Bus\Music\DigChimes	
+	3363523641	Strings			\Default Work Unit\Master Audio Bus\Music\Strings	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3923599172	SynthChords			\Default Work Unit\Master Audio Bus\SynthChords	
+	3923599172	SynthChords			\Default Work Unit\Master Audio Bus\Music\SynthChords	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	62300054	Wwise Compressor (Custom)	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

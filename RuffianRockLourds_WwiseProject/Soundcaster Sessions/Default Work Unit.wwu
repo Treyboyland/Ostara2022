@@ -13,15 +13,27 @@
 							<ObjectRef Name="Dig Chime" ID="{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}"/>
-							<Value>50</Value>
+							<Value>5</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}"/>
 							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}"/>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
