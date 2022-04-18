@@ -131,6 +131,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8664296895fce014a9708dfc4f540e8d, type: 2}
+  digTimeRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 525b592120ce5ea49906676ec365de8b, type: 2}
   OnDirtBroken:
     m_PersistentCalls:
       m_Calls:
