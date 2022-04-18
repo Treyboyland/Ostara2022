@@ -39,6 +39,7 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MSTRINGS = 630186068U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID MUSIC_AND_AMBIENCE = 1458896567U;
         static const AkUniqueID ROOTS = 1510358672U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID STORM = 1686739424U;

@@ -17,179 +17,275 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="Music" ID="{1802FEEE-868F-402B-A6DE-12E9106C5ED6}">
-							<ChildrenList>
-								<Bus Name="MStrings" ID="{0221C463-0C49-4524-A11E-0259E3761F4F}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-96</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="Roots" ID="{BFB63CDA-FC23-4CE9-8973-8477C250FDD7}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="Strings" ID="{8120CBA7-33A7-4A1B-B45F-CA672C32337E}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{5DC8E97D-658F-4BE8-AD91-22DEDA9F81D4}" ShortID="814630350">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{EDDEF1F9-4EDE-4AC6-A5B5-A3CD3F193ECB}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>2.40385</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Log3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>39.8682</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>-29.6384</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="SynthChords" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}">
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="SynthHigh" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}">
-									<PropertyList>
-										<Property Name="BusVolume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{9A460B03-BAED-43E2-BEA8-AF9E0890825D}" ShortID="977995839">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6DE5D157-56F7-43BE-ABC5-673733E6D5C3}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.001</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Exp3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>40</XPos>
-																<YPos>0</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ObjectLists/>
-								</Bus>
-								<Bus Name="DigChimes" ID="{2E169F34-8A4F-4772-9065-F274AC7200C0}">
-									<ObjectLists/>
-								</Bus>
-							</ChildrenList>
-							<ObjectLists/>
-						</Bus>
 						<Bus Name="SFX" ID="{AB4A8148-46D3-4432-9159-63FA21694C62}">
 							<ObjectLists/>
 						</Bus>
-						<Bus Name="Ambience" ID="{F1071804-49E7-493B-9468-86C6FDCEA845}">
+						<Bus Name="Music And Ambience" ID="{AA7C3417-0CF9-4E99-9B1A-38C23987A04B}">
 							<PropertyList>
-								<Property Name="BusChannelConfig" Type="int32">
-									<ValueList>
-										<Value>12546</Value>
-									</ValueList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{30D7AC3B-8F1A-4A41-BA1F-686635C348A1}" ShortID="269378963">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9BC29A6A-2E34-4A32-8DEF-144EAAE41041}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.23041</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-3.27524</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ChildrenList>
-								<Bus Name="Storm" ID="{8CB91783-9FB0-4114-B6BA-7170A8E4F5E5}">
+								<Bus Name="Ambience" ID="{F1071804-49E7-493B-9468-86C6FDCEA845}">
 									<PropertyList>
 										<Property Name="BusChannelConfig" Type="int32">
 											<ValueList>
 												<Value>12546</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{5F793850-74F4-4B25-9211-2A276DE87B57}" ShortID="625703252">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7486549C-3B38-4CF6-B6DA-F0C6E0BB1530}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>25</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Effect0">
-											<Custom>
-												<Effect Name="Wwise Compressor (Custom)" ID="{942A5725-F611-449C-A303-DC91EFCDBE11}" ShortID="62300054" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
-													<PropertyList>
-														<Property Name="AttackTime" Type="Real32" Value="0"/>
-														<Property Name="Ratio" Type="Real32" Value="2"/>
-														<Property Name="ReleaseTime" Type="Real32" Value="0.23"/>
-														<Property Name="Threshold" Type="Real32">
-															<RTPCList>
-																<RTPC Name="" ID="{25066464-D499-4FC9-B300-5BA1492ECC5B}" ShortID="110825190">
-																	<ReferenceList>
-																		<Reference Name="ControlInput">
-																			<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<Curve Name="" ID="{734E976D-7EE5-4BFF-901A-AFF0D6C74ADF}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0.05568</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>20.0267</XPos>
-																				<YPos>-28.38699</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>-46.64959</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</RTPC>
-															</RTPCList>
-														</Property>
-													</PropertyList>
-												</Effect>
-											</Custom>
-										</Reference>
-									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="Storm" ID="{8CB91783-9FB0-4114-B6BA-7170A8E4F5E5}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>12546</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Compressor (Custom)" ID="{942A5725-F611-449C-A303-DC91EFCDBE11}" ShortID="62300054" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+															<PropertyList>
+																<Property Name="AttackTime" Type="Real32" Value="0"/>
+																<Property Name="Ratio" Type="Real32" Value="2"/>
+																<Property Name="ReleaseTime" Type="Real32" Value="0.23"/>
+																<Property Name="Threshold" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{25066464-D499-4FC9-B300-5BA1492ECC5B}" ShortID="110825190">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{734E976D-7EE5-4BFF-901A-AFF0D6C74ADF}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>0.05568</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>20.0267</XPos>
+																						<YPos>-28.38699</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>-46.64959</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Music" ID="{1802FEEE-868F-402B-A6DE-12E9106C5ED6}">
+									<PropertyList>
+										<Property Name="OutputBusLowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{18A65B77-AD21-4B38-BF83-B274BADDCD30}" ShortID="487008757">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7E8B9209-0E68-45E8-8AEF-40CFCA666D4C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>43</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="MStrings" ID="{0221C463-0C49-4524-A11E-0259E3761F4F}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Roots" ID="{BFB63CDA-FC23-4CE9-8973-8477C250FDD7}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Strings" ID="{8120CBA7-33A7-4A1B-B45F-CA672C32337E}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{5DC8E97D-658F-4BE8-AD91-22DEDA9F81D4}" ShortID="814630350">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EDDEF1F9-4EDE-4AC6-A5B5-A3CD3F193ECB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>2.40385</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>39.8682</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-29.6384</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="SynthChords" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}">
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="SynthHigh" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{9A460B03-BAED-43E2-BEA8-AF9E0890825D}" ShortID="977995839">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{6DE5D157-56F7-43BE-ABC5-673733E6D5C3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.001</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>40</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="DigChimes" ID="{2E169F34-8A4F-4772-9065-F274AC7200C0}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

@@ -11,7 +11,15 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}"/>
+				<GameParameter Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="400"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
