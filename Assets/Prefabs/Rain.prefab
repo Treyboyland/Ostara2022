@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4947590843725404334}
   - component: {fileID: 3636464965309523036}
   - component: {fileID: 4947590843725404328}
+  - component: {fileID: 3573868991239948411}
   - component: {fileID: 4947590843725404329}
   m_Layer: 0
   m_Name: Rain
@@ -124,6 +125,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &3573868991239948411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4947590843725404331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe0076750af84440a9b253162225c7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rain: {fileID: 4947590843725404329}
 --- !u!198 &4947590843725404329
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -3880,7 +3894,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
