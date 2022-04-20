@@ -244,8 +244,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185522583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 50, y: 1, z: 40}
+  m_LocalPosition: {x: 0, y: -10.5, z: 0}
+  m_LocalScale: {x: 20, y: 19, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -464,6 +464,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3573868991239948411, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: rainDropEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 74e4b219f20ea8740bc7ddfd75029719, type: 2}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: rainStartProbability
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
       propertyPath: CollisionModule.m_Planes.Array.data[0]
       value: 
@@ -521,6 +541,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
       propertyPath: CollisionModule.m_Planes.Array.data[0]
       value: 
       objectReference: {fileID: 185522585}
@@ -531,6 +555,167 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3015217150368946159, guid: b007d953eaf9f1343a462ab850e45e46, type: 3}
   m_PrefabInstance: {fileID: 3015217150298197483}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1348164838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3573868991239948411, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: rainDropEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 74e4b219f20ea8740bc7ddfd75029719, type: 2}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: secondsToRain.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: secondsToWait.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: secondsToWait.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: rainStartProbability
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: stormPlayEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: stormStopEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: SubModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.9780799
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.6273585
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 185522585}
+    - target: {fileID: 4947590843725404331, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_Name
+      value: Snow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98768836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1564345
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590843725404334, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033112, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947590844901033119, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
+      propertyPath: CollisionModule.m_Planes.Array.data[0]
+      value: 
+      objectReference: {fileID: 185522585}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
 --- !u!1 &2020892425
 GameObject:
   m_ObjectHideFlags: 0
