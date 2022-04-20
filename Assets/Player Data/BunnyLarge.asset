@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df272fa83531b94fabe86a9e4c73d98, type: 3}
+  m_Name: BunnyLarge
+  m_EditorClassIdentifier: 
+  digTime: 0.5
+  speed: 2
+  colliderSize: {x: 1, y: 1}
+  playerAnimator: {fileID: 9100000, guid: b25dfedb6041f5649ac434a01c7a154c, type: 2}
