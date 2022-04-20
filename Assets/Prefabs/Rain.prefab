@@ -141,7 +141,7 @@ MonoBehaviour:
   rainDropEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8664296895fce014a9708dfc4f540e8d, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 74e4b219f20ea8740bc7ddfd75029719, type: 2}
 --- !u!198 &4947590843725404329
 ParticleSystem:
   m_ObjectHideFlags: 0

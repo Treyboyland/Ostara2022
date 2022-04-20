@@ -425,10 +425,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3636464965309523036, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
-      propertyPath: rainStartProbability
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4947590843725404329, guid: 3310a5ae13aa6434e9e5aeab80d24e2c, type: 3}
       propertyPath: CollisionModule.m_Planes.Array.data[0]
       value: 
@@ -501,7 +497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1981906318}
   - component: {fileID: 1981906317}
-  - component: {fileID: 1981906319}
   m_Layer: 0
   m_Name: Rain Kill Collider
   m_TagString: Untagged
@@ -536,18 +531,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1981906319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981906316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf2a8509ce3f6b34289979fc12bccdaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2020892425
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,10 +584,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 427647958261079020, guid: b007d953eaf9f1343a462ab850e45e46, type: 3}
-      propertyPath: depthRTPCSlewed.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: f73b541122a7e4f44b6d50f3ff5510f0, type: 2}
     - target: {fileID: 3015217150368946157, guid: b007d953eaf9f1343a462ab850e45e46, type: 3}
       propertyPath: m_RootOrder
       value: 1

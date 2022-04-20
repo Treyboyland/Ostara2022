@@ -153,6 +153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3015217150368946157}
+  - component: {fileID: 8236063031451491257}
   - component: {fileID: 3015217150368946158}
   - component: {fileID: 3015217150368946156}
   - component: {fileID: 3015217150368946147}
@@ -161,6 +162,7 @@ GameObject:
   - component: {fileID: 427647958261079020}
   - component: {fileID: 3015217150368946144}
   - component: {fileID: 3015217150368946145}
+  - component: {fileID: 4243720106442348620}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -186,6 +188,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8236063031451491257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3015217150368946159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6753dbfa059147f4993382e9c2719d0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData: {fileID: 11400000, guid: 92d37b7a073baac4388604168e08ebb1, type: 2}
+  controller: {fileID: 3015217150368946147}
+  playerBody: {fileID: 3015217150368946144}
+  animator: {fileID: 4243720106442348620}
+  inventory:
+    items: []
 --- !u!212 &3015217150368946158
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -282,6 +302,7 @@ MonoBehaviour:
   gameConstantsSO: {fileID: 11400000, guid: e5f2f7c50f9793a44895795fe30cfd2c, type: 2}
   body: {fileID: 3015217150368946145}
   secondsToMove: 0.5
+  speed: 0
 --- !u!114 &3015217150368946146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +353,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: eb034d3e6aeca6d488e129e3e8b99cd8, type: 2}
+  depthRTPCSlewed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f73b541122a7e4f44b6d50f3ff5510f0, type: 2}
   useAbsoluteValue: 1
   depthMultiplier: 2
 --- !u!61 &3015217150368946144
@@ -381,6 +406,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &4243720106442348620
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3015217150368946159}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3015217150782260648
 GameObject:
   m_ObjectHideFlags: 0

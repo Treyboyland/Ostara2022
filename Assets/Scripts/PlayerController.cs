@@ -14,6 +14,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     float secondsToMove;
 
+    [SerializeField]
+    float speed;
+
+    public float Speed { get { return speed; } set { speed = value; } }
+
     bool isMoving = false;
 
     Vector2 movementVector;
@@ -31,7 +36,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         DoMove2();
     }
@@ -44,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
     void DoMove2()
     {
-        body.AddForce(movementVector);
+        body.AddForce(movementVector * speed);
     }
 
     void DoMove1()
