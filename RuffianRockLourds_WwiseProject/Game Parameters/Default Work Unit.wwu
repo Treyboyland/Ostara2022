@@ -28,6 +28,13 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="10"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="BackupMeter" ID="{9360DCBD-ED32-4AB7-8DA1-92F5D9041DA9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-100"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

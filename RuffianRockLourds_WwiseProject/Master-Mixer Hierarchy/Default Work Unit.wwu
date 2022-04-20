@@ -381,43 +381,44 @@
 											</PropertyList>
 											<ObjectLists/>
 										</Bus>
-										<Bus Name="SynthChords" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}">
-											<ObjectLists/>
-										</Bus>
-										<Bus Name="SynthHigh" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}">
+										<Bus Name="Music Backup" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}">
 											<PropertyList>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{9A460B03-BAED-43E2-BEA8-AF9E0890825D}" ShortID="977995839">
+														<RTPC Name="" ID="{524CA21A-84C3-4C58-A2A6-9FED12976572}" ShortID="164155437">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																	<ObjectRef Name="BackupMeter" ID="{9360DCBD-ED32-4AB7-8DA1-92F5D9041DA9}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{6DE5D157-56F7-43BE-ABC5-673733E6D5C3}">
+															<Curve Name="" ID="{E02582EC-9845-4AC0-945D-B13AD7030E50}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>-200</YPos>
+																		<XPos>-100</XPos>
+																		<YPos>-0.04978</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>0.001</XPos>
+																		<XPos>-91.7914919113241</XPos>
+																		<YPos>-0.0497799999999999</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-54.86423</XPos>
+																		<YPos>0.13363</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-27.66131</XPos>
+																		<YPos>-32.81956</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
 																		<YPos>-200</YPos>
-																		<Flags>0</Flags>
-																		<SegmentShape>Exp3</SegmentShape>
-																	</Point>
-																	<Point>
-																		<XPos>40</XPos>
-																		<YPos>0</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -426,6 +427,31 @@
 													</RTPCList>
 												</Property>
 											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="MusicMain" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>12546</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Meter (Custom)" ID="{5BFDB8F9-E609-4FC9-BA55-1E2CA5A0BCBF}" ShortID="113932559" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+															<PropertyList>
+																<Property Name="Min" Type="Real32" Value="-96.3"/>
+																<Property Name="ReleaseTime" Type="Real32" Value="0.11"/>
+															</PropertyList>
+															<PluginData>
+	<GameParameter Name="BackupMeter" ID="{9360DCBD-ED32-4AB7-8DA1-92F5D9041DA9}"/>
+</PluginData>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="DigChimes" ID="{2E169F34-8A4F-4772-9065-F274AC7200C0}">
