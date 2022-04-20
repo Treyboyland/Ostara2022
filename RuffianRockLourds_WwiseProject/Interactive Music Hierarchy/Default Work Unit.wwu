@@ -576,6 +576,11 @@
 								</MusicTrack>
 								<MusicTrack Name="A#MStrings" ID="{360F8173-34E2-400E-9566-8F9C26F615A7}" ShortID="469477805">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1665,6 +1670,11 @@
 								</MusicTrack>
 								<MusicTrack Name="EbMStrings" ID="{E5C536F6-623F-4F76-981F-294C1A427376}" ShortID="689682877">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2788,6 +2798,11 @@
 								</MusicTrack>
 								<MusicTrack Name="C#MStrings" ID="{77FA941A-FBBB-46D2-91E2-15483FDCBDAF}" ShortID="233726334">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3653,6 +3668,11 @@
 								</MusicTrack>
 								<MusicTrack Name="F#MStrings" ID="{F3965C97-75EE-46A6-BD5F-4DBF85E00660}" ShortID="526443004">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
@@ -4795,6 +4815,11 @@
 								</MusicTrack>
 								<MusicTrack Name="G#MStrings" ID="{68239D1B-C297-418F-A16B-DCC61B66D3A3}" ShortID="423214429">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="MusicTrackType" Type="int16" Value="1"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 									</PropertyList>
@@ -6514,74 +6539,6 @@
 				<MusicSegment Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" ShortID="328538347">
 					<PropertyList>
 						<Property Name="EndPosition" Type="Real64" Value="266115.621955914"/>
-						<Property Name="Lowpass" Type="int16">
-							<RTPCList>
-								<RTPC Name="" ID="{4F81BB93-6D70-48C2-B84C-DC8635D20FCA}" ShortID="724085268">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{85D3224B-150A-4618-8E13-318EFB6EEFED}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Log1</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>20.40983</XPos>
-												<YPos>54</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>55</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{BAA4EF3F-E359-4FF5-AFAC-72975E776FB8}" ShortID="821393142">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{985F3A61-A0B6-44CC-A589-05DFAE59EBB2}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-												<SegmentShape>Exp1</SegmentShape>
-											</Point>
-											<Point>
-												<XPos>14.4936</XPos>
-												<YPos>-4.2639</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>-200</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

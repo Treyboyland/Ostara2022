@@ -13,6 +13,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1686739424	Storm			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\Storm	
 	2230590204	DigChimes			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\DigChimes	
 	3363523641	Strings			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Strings	
+	3533120928	RainSequence			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\RainSequence	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3923599172	SynthChords			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\SynthChords	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music And Ambience\Music	

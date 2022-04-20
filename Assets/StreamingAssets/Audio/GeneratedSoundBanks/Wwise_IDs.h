@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID DIG = 445985471U;
         static const AkUniqueID POSTMUSIC = 3750377736U;
+        static const AkUniqueID RAINIMPACT = 344026725U;
         static const AkUniqueID STORMPLAY = 2951963734U;
         static const AkUniqueID STORMSTOP = 3723974632U;
     } // namespace EVENTS
@@ -40,6 +41,7 @@ namespace AK
         static const AkUniqueID MSTRINGS = 630186068U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID MUSIC_AND_AMBIENCE = 1458896567U;
+        static const AkUniqueID RAINSEQUENCE = 3533120928U;
         static const AkUniqueID ROOTS = 1510358672U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID STORM = 1686739424U;

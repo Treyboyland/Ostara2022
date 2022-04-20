@@ -98,6 +98,74 @@
 														<Value>12546</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{4C6C3A87-9013-4799-B577-1A49CFBE2F25}" ShortID="842125871">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{13F16964-311C-4662-8BFE-67CB6AF08E2A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20.40983</XPos>
+																		<YPos>54</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>55</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="OutputBusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{A7628938-3095-447C-93CF-0D6BC08ABF13}" ShortID="567814467">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5941272C-6F4F-47F6-AF02-2CD4EFFDBD00}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>14.4936</XPos>
+																		<YPos>-4.26390000000001</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Effect0">
@@ -145,6 +213,84 @@
 													</Custom>
 												</Reference>
 											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="RainSequence" ID="{7F36EACE-DB77-4759-9F1E-F1068DB9660B}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{09BABF19-9824-4193-A8DE-01F1BA03FFFD}" ShortID="1059037896">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4EB15D82-22A8-4E36-871B-7FE1D70C1B78}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>19.50596</XPos>
+																		<YPos>51</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="OutputBusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{28C4704D-1FE3-4FEF-A748-251C3DA8F072}" ShortID="765188991">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="PlayerDepth" ID="{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E4076265-610B-4638-B930-F66737D6EAB9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>14.4936</XPos>
+																		<YPos>-4.26390000000001</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ObjectLists/>
 										</Bus>
 									</ChildrenList>

@@ -14,6 +14,522 @@
 					</ReferenceList>
 					<ObjectLists/>
 				</ActorMixer>
+				<ActorMixer Name="Environment" ID="{44264A44-2E1B-4E5C-AA31-6B4864BE3E41}" ShortID="429095956">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RainSequence" ID="{D1034E48-5B18-487E-8B96-6CADCE527D0A}" ShortID="296127474">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="RainSequence" ID="{7F36EACE-DB77-4759-9F1E-F1068DB9660B}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Rain High" ID="{F5284C2F-E770-492D-B59E-6283E18323FE}" ShortID="984326280">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RainDrops 2(2)" ID="{A80E2E0F-B8D6-49DE-B1CA-07E2A41D8028}" ShortID="855744236">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 2(2)" ID="{24878D4D-C0F6-41CD-8AB6-CD3EAD9717A5}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 2(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="805303288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 2(2)" ID="{24878D4D-C0F6-41CD-8AB6-CD3EAD9717A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 4(2)" ID="{6ABA6736-592F-4F3B-BCF7-CF13E0BD959E}" ShortID="547439301">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 4(2)" ID="{7E30B5A2-C3CE-489B-9A98-5513C96D7FD3}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 4(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="42082726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 4(2)" ID="{7E30B5A2-C3CE-489B-9A98-5513C96D7FD3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 3(2)" ID="{E448B1F0-25C5-48D4-AB1A-8BCAF408F701}" ShortID="19423926">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 3(2)" ID="{FF690F17-E925-479C-B24B-573210CBC179}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 3(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="381872786"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 3(2)" ID="{FF690F17-E925-479C-B24B-573210CBC179}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops(2)" ID="{17FCBB42-86B0-4CFA-A02B-78F1FFE631C0}" ShortID="442499314">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops(2)" ID="{44BD853D-5C25-4EF0-AFB8-0CA6C365BB37}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310931849"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops(2)" ID="{44BD853D-5C25-4EF0-AFB8-0CA6C365BB37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RainMedHigh" ID="{D33C1A09-785E-4577-AE81-6A5CA1993258}" ShortID="865570746">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RainDrops 7(2)" ID="{63FD1549-013E-4535-BEF5-F2B134AA4C60}" ShortID="204964313">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 7(2)" ID="{E87560F3-D0D4-4D63-ABD0-766D66AA3E99}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 7(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1033711796"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 7(2)" ID="{E87560F3-D0D4-4D63-ABD0-766D66AA3E99}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 5(2)" ID="{7D8DC719-7A8F-486C-A4DB-88DB522A2F96}" ShortID="66493333">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 5(2)" ID="{1667B3B4-C1C4-4D01-A8D9-0806C151271D}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 5(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="859648914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 5(2)" ID="{1667B3B4-C1C4-4D01-A8D9-0806C151271D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 6(2)" ID="{BD8E6CFD-A266-4A18-8A70-1A12BC45A090}" ShortID="849097715">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 6(2)" ID="{3EB55229-8026-47A7-862F-1B7F1BD8C581}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 6(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="770268471"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 6(2)" ID="{3EB55229-8026-47A7-862F-1B7F1BD8C581}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 8(2)" ID="{D5BD2FCB-5BA8-430F-8123-496392221D23}" ShortID="499442241">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 8(2)" ID="{BBB48C99-3E72-449C-92F1-D07834B86314}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 8(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162771995"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 8(2)" ID="{BBB48C99-3E72-449C-92F1-D07834B86314}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RainMed" ID="{AF262E0C-C94C-4530-87E8-CD269DC557B0}" ShortID="980226013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RainDrops 9(2)" ID="{4CF989DC-FC95-4890-8489-112824DA8C4A}" ShortID="272273404">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 9(2)" ID="{D33879FA-6662-4710-8595-A5608B8BEC14}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 9(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="237184707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 9(2)" ID="{D33879FA-6662-4710-8595-A5608B8BEC14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 11(2)" ID="{C4B5BF1C-5483-4C39-9C8E-EE50F1DCE031}" ShortID="1068642931">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 11(2)" ID="{A55BF798-B532-4AFD-81AE-A34650F2F08C}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 11(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="68993629"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 11(2)" ID="{A55BF798-B532-4AFD-81AE-A34650F2F08C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 10(2)" ID="{2EAE35AE-A609-4A39-A84F-F0499C195C19}" ShortID="23140167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 10(2)" ID="{56C77BEC-14F0-4049-9654-58EBAE13D592}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 10(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="670891759"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 10(2)" ID="{56C77BEC-14F0-4049-9654-58EBAE13D592}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 12(2)" ID="{C074C4BA-D0E1-4C09-84BC-0718EB5FD733}" ShortID="1032352423">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 12(2)" ID="{5C0E4742-0483-42E7-A0A2-BE9F9D22FA55}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 12(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="694195951"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 12(2)" ID="{5C0E4742-0483-42E7-A0A2-BE9F9D22FA55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RainMedLow" ID="{B8387A73-9CE2-4116-AEEB-64738432167F}" ShortID="508237619">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RainDrops 15(2)" ID="{FAD92168-8A4E-4DE3-A869-B278AF8EE46D}" ShortID="712535671">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 15(2)" ID="{A1321A6A-2205-410E-B653-E5BCBA6036D3}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 15(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1019548771"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 15(2)" ID="{A1321A6A-2205-410E-B653-E5BCBA6036D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 13(2)" ID="{A31BFBD8-630E-4D36-8A04-49F436ACF35F}" ShortID="897028456">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 13(2)" ID="{19EAFD40-DBA1-4E16-9B8E-8DB91AC6DBD3}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 13(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="778158364"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 13(2)" ID="{19EAFD40-DBA1-4E16-9B8E-8DB91AC6DBD3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 14(2)" ID="{AD6156AE-D35D-4753-B1E4-9E1E4085396A}" ShortID="929895130">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 14(2)" ID="{7E1E195E-C3F9-44CE-8EE7-6869E69A4B50}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 14(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="927761729"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 14(2)" ID="{7E1E195E-C3F9-44CE-8EE7-6869E69A4B50}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RainLow" ID="{B11577F9-DCE6-46A1-A65D-96D565F1872B}" ShortID="69999366">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="RainDrops 17(2)" ID="{22207D58-6818-4E09-995F-2F12C8174374}" ShortID="672054426">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 17(2)" ID="{EC0B0BE9-FE74-4D52-8007-A9896F800BBB}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 17(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="887683505"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 17(2)" ID="{EC0B0BE9-FE74-4D52-8007-A9896F800BBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 18(2)" ID="{312C2CEB-A08C-42D2-9481-1284454631C8}" ShortID="394736882">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 18(2)" ID="{38F30A52-F962-43ED-8751-36EA18AD9F9A}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 18(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="442088207"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 18(2)" ID="{38F30A52-F962-43ED-8751-36EA18AD9F9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RainDrops 16(2)" ID="{A5B0B891-AA29-41EF-8915-341DEA8706C0}" ShortID="164386353">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RainDrops 16(2)" ID="{7DAEB373-33E2-45AF-810D-D134B23211A7}">
+													<Language>SFX</Language>
+													<AudioFile>RainDrops 16(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509141901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="RainDrops 16(2)" ID="{7DAEB373-33E2-45AF-810D-D134B23211A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="Rain High" ID="{F5284C2F-E770-492D-B59E-6283E18323FE}"/>
+								<ItemRef Name="RainMedHigh" ID="{D33C1A09-785E-4577-AE81-6A5CA1993258}"/>
+								<ItemRef Name="RainMed" ID="{AF262E0C-C94C-4530-87E8-CD269DC557B0}"/>
+								<ItemRef Name="RainMedLow" ID="{B8387A73-9CE2-4116-AEEB-64738432167F}"/>
+								<ItemRef Name="RainLow" ID="{B11577F9-DCE6-46A1-A65D-96D565F1872B}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

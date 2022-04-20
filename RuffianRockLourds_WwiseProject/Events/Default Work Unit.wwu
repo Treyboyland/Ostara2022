@@ -56,6 +56,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="RainImpact" ID="{C6D57897-1E25-454B-B83C-E206508DF2C5}">
+					<ChildrenList>
+						<Action Name="" ID="{78538DF5-A5A5-4043-B44B-C314CE6A8BF3}" ShortID="523646413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RainSequence" ID="{D1034E48-5B18-487E-8B96-6CADCE527D0A}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
