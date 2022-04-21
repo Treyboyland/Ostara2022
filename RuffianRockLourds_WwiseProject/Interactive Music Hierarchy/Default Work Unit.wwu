@@ -1611,12 +1611,15 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="WindBackupC" ID="{99313628-0FF6-4880-9591-A34E2A925889}" ShortID="767589324">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMain" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+											<ObjectRef Name="Music Backup" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -1686,7 +1689,7 @@
 						</MusicSegment>
 						<MusicSegment Name="MusicD" ID="{9D62BD9D-A329-4A83-B385-952E9232330F}" ShortID="1034116529">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="25600"/>
+								<Property Name="EndPosition" Type="Real64" Value="51600"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1834,6 +1837,20 @@
 												<MediaID ID="731292806"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="BunnyD150bpm9L - Flutes(2)" ID="{2B1D9968-165A-4B01-8538-555FC12CADF4}">
+											<Language>SFX</Language>
+											<AudioFile>BunnyD150bpm9L - Flutes(2).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="48349691"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="BunnyD150bpm9L - Flutes(3)" ID="{67A99C5D-8646-437D-A9B4-EDE8471D678A}">
+											<Language>SFX</Language>
+											<AudioFile>BunnyD150bpm9L - Flutes(3).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="290998427"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
 										<MusicTransition Name="Root" ID="{5E874745-DED9-4E3B-BD89-8B916E4083D9}">
@@ -1870,6 +1887,65 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{56F1FA9E-EDE8-4C79-9DB7-2CB854B2168F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="BunnyD150bpm9L - Flutes(2)" ID="{882C6B37-FE28-40A2-BEBB-7F125E7E6D31}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25600"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="BunnyD150bpm9L - Flutes(2)" ID="{2B1D9968-165A-4B01-8538-555FC12CADF4}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{14D9F519-CFBF-469F-82BB-35A5E05EF84C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="BunnyD150bpm9L - Flutes(3)" ID="{32831E30-72B7-4F62-B4B7-F33FD78979E7}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25600"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="2.22044604925031E-13"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="BunnyD150bpm9L - Flutes(3)" ID="{67A99C5D-8646-437D-A9B4-EDE8471D678A}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F6D48763-8203-4894-A953-EBA7EDCA2082}">
+														<ObjectLists/>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{0665E565-72EA-4ACF-B019-C6C891F7C5DF}">
+														<ObjectLists/>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{B89C85AD-04E4-4896-B125-D6392DF3A5E4}">
 														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
@@ -2118,12 +2194,15 @@
 									</ObjectLists>
 								</MusicTrack>
 								<MusicTrack Name="WindBackupD" ID="{8B89BBE4-4639-4469-A047-650BFA94C4C9}" ShortID="994985234">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="MusicMain" ID="{9FFF4775-CFEE-450A-B3E3-04EF8131EE6A}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+											<ObjectRef Name="Music Backup" ID="{CF98FB29-A4F8-4DB5-905D-109E4356B3A3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
