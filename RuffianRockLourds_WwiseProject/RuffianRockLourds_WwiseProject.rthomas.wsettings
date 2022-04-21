@@ -5,10 +5,13 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="F:\studioone songs\Home made samples\Game Jam\"/>
 				<Property Name="Event Action List\{162004D2-BA0E-4641-A897-7DCDC0512C70}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3856D5ED-51C7-4967-917F-BDDCF63DD8A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6B8F3DFF-78CE-473E-A825-6795B447B5E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{84A159D7-A8DB-407E-83EC-1DD279FC6628}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A46A32A7-E7A3-49BC-B794-25B8658A73C9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B23DC4B7-8444-47AC-A644-60A3C3E44D2B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C6D57897-1E25-454B-B83C-E206508DF2C5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F8C31E91-E74D-4AA0-86C3-7DBAFB780616}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>

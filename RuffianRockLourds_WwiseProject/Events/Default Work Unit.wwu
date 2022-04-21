@@ -67,6 +67,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EnemyMoan" ID="{3856D5ED-51C7-4967-917F-BDDCF63DD8A9}">
+					<ChildrenList>
+						<Action Name="" ID="{C939B475-E7AF-4AE1-8873-1E3F36E0EB65}" ShortID="958435432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Moan" ID="{E70E8CD2-BCF4-44CC-912B-5948F34EF94B}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnemyGrowl" ID="{B23DC4B7-8444-47AC-A644-60A3C3E44D2B}">
+					<ChildrenList>
+						<Action Name="" ID="{1487E1B5-CF29-4C2C-B3BB-DA271D00DCDA}" ShortID="1006485849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Growl" ID="{D4A3DEC0-9D79-43E4-A2A2-381B1ABEBCE4}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
