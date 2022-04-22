@@ -89,7 +89,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="DirtFall" ID="{1A866AD2-EB0F-4C10-A1D3-EA421FB07011}"/>
+				<Event Name="DirtFall" ID="{1A866AD2-EB0F-4C10-A1D3-EA421FB07011}">
+					<ChildrenList>
+						<Action Name="" ID="{415C7681-749D-4249-A9EE-595E51D56EF2}" ShortID="472524829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
