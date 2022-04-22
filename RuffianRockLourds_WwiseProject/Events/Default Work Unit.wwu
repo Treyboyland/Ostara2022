@@ -8,7 +8,7 @@
 						<Action Name="" ID="{F3FDA220-F14A-431A-A867-E6C60CC88F38}" ShortID="252454899">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dig Chime" ID="{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Dig" ID="{AC48F30D-719E-4D34-BA99-A08FF0736D5F}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -89,6 +89,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="DirtFall" ID="{1A866AD2-EB0F-4C10-A1D3-EA421FB07011}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
