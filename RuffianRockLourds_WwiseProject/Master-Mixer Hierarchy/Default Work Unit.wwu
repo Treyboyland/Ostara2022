@@ -4,20 +4,53 @@
 		<WorkUnit Name="Default Work Unit" ID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
-					<PropertyList>
-						<Property Name="BusVolume" Type="Real64">
-							<ValueList>
-								<Value>-7</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{01ECEE77-A4BE-4E6E-9627-F6BFA9054713}" WorkUnitID="{8EBFE315-F2E2-44A1-8FE8-71F29BD65F50}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{AB4A8148-46D3-4432-9159-63FA21694C62}">
+							<ChildrenList>
+								<Bus Name="Speech" ID="{822BA73A-1892-44C1-8957-E62D01B99F0B}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="EnemyNoises" ID="{DA5780C6-2EB2-4A9E-99E5-479F495ABFAC}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="PlayerNoises" ID="{5F2F23E6-8BD0-4273-9AC6-4745B5201274}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Music And Ambience" ID="{AA7C3417-0CF9-4E99-9B1A-38C23987A04B}">
@@ -96,6 +129,11 @@
 												<Property Name="BusChannelConfig" Type="int32">
 													<ValueList>
 														<Value>12546</Value>
+													</ValueList>
+												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Lowpass" Type="int16">
@@ -443,7 +481,7 @@
 														<Effect Name="Wwise Meter (Custom)" ID="{5BFDB8F9-E609-4FC9-BA55-1E2CA5A0BCBF}" ShortID="113932559" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
 															<PropertyList>
 																<Property Name="Min" Type="Real32" Value="-96.3"/>
-																<Property Name="ReleaseTime" Type="Real32" Value="0.11"/>
+																<Property Name="ReleaseTime" Type="Real32" Value="0.09"/>
 															</PropertyList>
 															<PluginData>
 	<GameParameter Name="BackupMeter" ID="{9360DCBD-ED32-4AB7-8DA1-92F5D9041DA9}"/>

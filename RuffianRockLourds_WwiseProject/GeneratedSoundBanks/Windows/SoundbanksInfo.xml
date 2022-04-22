@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3909490650">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1583946823">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,7 +22,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="1000792748">
+		<SoundBank Id="2858921253" Language="SFX" Hash="370409631">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -327,11 +327,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="248." DurationMax="248.">
+				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<IncludedMemoryFiles>
 						<File Id="98814477" Language="SFX">
 							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
-							<Path>SFX\RainStorm120bpm11E113L_9EDFC787.wem</Path>
+							<Path>SFX\RainStorm120bpm11E113L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

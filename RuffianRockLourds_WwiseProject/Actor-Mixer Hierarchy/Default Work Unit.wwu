@@ -20,7 +20,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{AB4A8148-46D3-4432-9159-63FA21694C62}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+							<ObjectRef Name="EnemyNoises" ID="{DA5780C6-2EB2-4A9E-99E5-479F495ABFAC}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -395,7 +395,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+							<ObjectRef Name="PlayerNoises" ID="{5F2F23E6-8BD0-4273-9AC6-4745B5201274}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -921,17 +921,40 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Speech" ID="{BD1AED2B-2068-472D-820A-228D1517B52C}" ShortID="121238014">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
 						<ActorMixer Name="PlayerSpeech" ID="{63763017-F92C-4082-8D5E-DF8492E3B170}" ShortID="257670279">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+									<ObjectRef Name="Speech" ID="{822BA73A-1892-44C1-8957-E62D01B99F0B}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="GimmeCarrot" ID="{98847CE8-667C-4DEA-B77D-7B97E7E45F5C}" ShortID="313186661">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>

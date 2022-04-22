@@ -34,7 +34,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -50,7 +50,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

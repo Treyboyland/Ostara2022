@@ -42,15 +42,18 @@ namespace AK
     {
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID DIGCHIMES = 2230590204U;
+        static const AkUniqueID ENEMYNOISES = 36310906U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MSTRINGS = 630186068U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID MUSIC_AND_AMBIENCE = 1458896567U;
         static const AkUniqueID MUSIC_BACKUP = 842978000U;
         static const AkUniqueID MUSICMAIN = 374987273U;
+        static const AkUniqueID PLAYERNOISES = 2172801387U;
         static const AkUniqueID RAINSEQUENCE = 3533120928U;
         static const AkUniqueID ROOTS = 1510358672U;
         static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID SPEECH = 4245458931U;
         static const AkUniqueID STORM = 1686739424U;
         static const AkUniqueID STRINGS = 3363523641U;
     } // namespace BUSSES
