@@ -8,7 +8,7 @@
 						<Action Name="" ID="{F3FDA220-F14A-431A-A867-E6C60CC88F38}" ShortID="252454899">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Dig Chime" ID="{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Dig" ID="{AC48F30D-719E-4D34-BA99-A08FF0736D5F}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -62,6 +62,39 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="RainSequence" ID="{D1034E48-5B18-487E-8B96-6CADCE527D0A}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnemyMoan" ID="{3856D5ED-51C7-4967-917F-BDDCF63DD8A9}">
+					<ChildrenList>
+						<Action Name="" ID="{C939B475-E7AF-4AE1-8873-1E3F36E0EB65}" ShortID="958435432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Moan" ID="{E70E8CD2-BCF4-44CC-912B-5948F34EF94B}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EnemyGrowl" ID="{B23DC4B7-8444-47AC-A644-60A3C3E44D2B}">
+					<ChildrenList>
+						<Action Name="" ID="{1487E1B5-CF29-4C2C-B3BB-DA271D00DCDA}" ShortID="1006485849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enemy Growl" ID="{D4A3DEC0-9D79-43E4-A2A2-381B1ABEBCE4}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DirtFall" ID="{1A866AD2-EB0F-4C10-A1D3-EA421FB07011}">
+					<ChildrenList>
+						<Action Name="" ID="{415C7681-749D-4249-A9EE-595E51D56EF2}" ShortID="472524829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

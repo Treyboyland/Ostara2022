@@ -20,9 +20,803 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{AB4A8148-46D3-4432-9159-63FA21694C62}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Enemy Moan" ID="{E70E8CD2-BCF4-44CC-912B-5948F34EF94B}" ShortID="489733211">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Enemy Moan 4(5)" ID="{B52E15C2-D2C6-4D38-9EF6-68867247DBFE}" ShortID="320422292">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(5)" ID="{7298E416-FD21-4911-9521-F21F339532C9}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(5).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="483799909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(5)" ID="{7298E416-FD21-4911-9521-F21F339532C9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(6)" ID="{98F016E6-FF82-4A25-9484-922F1694D2C9}" ShortID="354628576">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(6)" ID="{057EF807-B948-4582-A367-17118890A2A3}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(6).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="233870218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(6)" ID="{057EF807-B948-4582-A367-17118890A2A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(7)" ID="{C7672FDB-BEF9-4F29-849F-68CCDF338A68}" ShortID="442971284">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(7)" ID="{06220655-04D7-42C7-9C63-2D3AF5C4FD88}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(7).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="565726934"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(7)" ID="{06220655-04D7-42C7-9C63-2D3AF5C4FD88}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(8)" ID="{133500E4-280E-4AC5-B039-67F19ED49027}" ShortID="335413356">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(8)" ID="{9BD35650-F019-4412-8F8B-A15A703D2F6B}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(8).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546958333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(8)" ID="{9BD35650-F019-4412-8F8B-A15A703D2F6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(9)" ID="{49393A52-F6EF-4130-BA0A-0F5C01F14FD5}" ShortID="48534041">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(9)" ID="{3164F4F4-1259-4100-909D-C8325105EFA2}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(9).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485077574"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(9)" ID="{3164F4F4-1259-4100-909D-C8325105EFA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(10)" ID="{8B438A5E-CDE3-44A4-AF7F-19A206EE51CD}" ShortID="268917163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(10)" ID="{B872C108-875D-4ACA-967D-36B789B157AC}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(10).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157676568"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(10)" ID="{B872C108-875D-4ACA-967D-36B789B157AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy Moan 4(11)" ID="{78A5D145-AC9D-44C1-AA8C-F0F71E69AF0C}" ShortID="560911256">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy Moan 4(11)" ID="{A705B065-F4F7-4F96-8B96-AA14FFD8D0A2}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy Moan 4(11).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="902713250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy Moan 4(11)" ID="{A705B065-F4F7-4F96-8B96-AA14FFD8D0A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Enemy Growl" ID="{D4A3DEC0-9D79-43E4-A2A2-381B1ABEBCE4}" ShortID="448170276">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="EnemyBunny 1(3)" ID="{9E3B4098-57B2-4541-9404-3F4BE05F51B0}" ShortID="161964349">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(3)" ID="{65A884FF-6367-4FA8-8BC8-ED3074341AA1}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(3).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008286718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(3)" ID="{65A884FF-6367-4FA8-8BC8-ED3074341AA1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(4)" ID="{46E6DE2B-41F7-4919-8CEA-F399FF48C0FC}" ShortID="1041186788">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(4)" ID="{EE26A434-87E6-4778-871E-EF564D7D79FA}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(4).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="510868528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(4)" ID="{EE26A434-87E6-4778-871E-EF564D7D79FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(5)" ID="{F4CBD385-CA12-40D5-AEC1-C472BA0E0FF6}" ShortID="704874895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(5)" ID="{DD2A4151-0601-4DAC-A7EF-C23C5A974553}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(5).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812711002"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(5)" ID="{DD2A4151-0601-4DAC-A7EF-C23C5A974553}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(6)" ID="{C4C73201-AB5C-4132-BA05-EBC7207C67F9}" ShortID="36675342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(6)" ID="{67DAF3B1-3763-46C2-B492-1102B30096FE}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(6).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="221226673"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(6)" ID="{67DAF3B1-3763-46C2-B492-1102B30096FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(7)" ID="{AFCB9B7D-6B1B-48BC-AC44-D887121C9B51}" ShortID="70873014">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(7)" ID="{1BB5C111-DFFA-4079-9BD8-D7C3BE1DBFCA}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(7).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="190882544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(7)" ID="{1BB5C111-DFFA-4079-9BD8-D7C3BE1DBFCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(8)" ID="{D1CCD5CC-058C-46AE-9A01-38112E497B7D}" ShortID="386428334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(8)" ID="{C001DCD6-1E85-40CF-984D-A639999DB5BC}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(8).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197325531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(8)" ID="{C001DCD6-1E85-40CF-984D-A639999DB5BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="EnemyBunny 1(9)" ID="{EC21F87B-1EEC-4C5F-B0DC-8656F3E096CB}" ShortID="673820863">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="EnemyBunny 1(9)" ID="{70E71874-2A56-43E8-BB42-828AFE7CAFA6}">
+											<Language>SFX</Language>
+											<AudioFile>EnemyBunny 1(9).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="404675934"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="EnemyBunny 1(9)" ID="{70E71874-2A56-43E8-BB42-828AFE7CAFA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Player" ID="{D8E4C88B-3BDC-40BB-97CA-D1FA37AD8855}" ShortID="1068453539">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Dig" ID="{AC48F30D-719E-4D34-BA99-A08FF0736D5F}" ShortID="440180490">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ScratchAtDirt(2)" ID="{CE43AE50-B269-4D32-BA07-427AE508DFBB}" ShortID="140582924">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(2)" ID="{6C6DA7B8-E13E-4018-B43E-3B60DC80DB25}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(2).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="138855402"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(2)" ID="{6C6DA7B8-E13E-4018-B43E-3B60DC80DB25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(3)" ID="{20BD3040-A6F6-4FBB-B516-7A0C18C13B8F}" ShortID="726596501">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(3)" ID="{8F965875-0EE4-4D59-80ED-237763EBEF49}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(3).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787646453"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(3)" ID="{8F965875-0EE4-4D59-80ED-237763EBEF49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(4)" ID="{BD07AD51-EE86-4D0A-8A5C-5247C3C0C6D4}" ShortID="213020438">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(4)" ID="{ACC0CD5E-AE22-4C1E-873C-C706F9C68EFE}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(4).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="81106031"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(4)" ID="{ACC0CD5E-AE22-4C1E-873C-C706F9C68EFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(5)" ID="{939CC0D6-766B-4452-B0F3-7F9E2CF5DF85}" ShortID="674284803">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(5)" ID="{FBFFD992-83D5-4CE2-97FC-A0851902BC09}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(5).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1028356872"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(5)" ID="{FBFFD992-83D5-4CE2-97FC-A0851902BC09}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(6)" ID="{D4133942-697D-49D5-9972-BACAFB77F5E3}" ShortID="840077610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(6)" ID="{69ED138D-7AAD-42DF-8BC0-819537F6F1B1}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(6).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="228283718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(6)" ID="{69ED138D-7AAD-42DF-8BC0-819537F6F1B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(7)" ID="{7200DEC1-7253-4226-96B8-8EF8D20FBCFC}" ShortID="581492321">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(7)" ID="{9A1A57DC-1502-4C15-B19A-940D32581BEA}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(7).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66475309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(7)" ID="{9A1A57DC-1502-4C15-B19A-940D32581BEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(8)" ID="{113BC54C-930D-43FE-92F0-83B1AFBFAA5E}" ShortID="230870894">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(8)" ID="{FC37381C-2AC7-43BE-B6BF-872A544D06F1}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(8).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="967605378"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(8)" ID="{FC37381C-2AC7-43BE-B6BF-872A544D06F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(9)" ID="{5F4EF320-83E9-4B09-8F23-1C38A4042817}" ShortID="687208264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(9)" ID="{BADF2384-D4A4-4886-91F8-740ED692DABD}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(9).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="593680895"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(9)" ID="{BADF2384-D4A4-4886-91F8-740ED692DABD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(10)" ID="{383E6367-8683-4ECA-96DF-B10DC52970B2}" ShortID="181244899">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(10)" ID="{B55079B4-32A0-4AB1-9BCE-07D17D7BD2AF}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(10).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="521611845"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(10)" ID="{B55079B4-32A0-4AB1-9BCE-07D17D7BD2AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(11)" ID="{71C3CD26-B700-4A35-AA52-0515ED5E4EDD}" ShortID="157320238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(11)" ID="{7FF1516E-A08B-4478-BC22-522627EECDFE}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(11).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="64630079"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(11)" ID="{7FF1516E-A08B-4478-BC22-522627EECDFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(12)" ID="{0AA71B91-4C71-4C5F-B992-67B103D729FA}" ShortID="1010325367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(12)" ID="{A0F43B65-31A1-4223-976A-CC0D8854E066}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(12).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="106634983"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(12)" ID="{A0F43B65-31A1-4223-976A-CC0D8854E066}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt(13)" ID="{69550C7B-98EC-4EB3-A6FF-A0EB67FF5AC0}" ShortID="767293332">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt(13)" ID="{0982E7B4-0E56-406D-B735-0D6344C450A7}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt(13).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843915913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt(13)" ID="{0982E7B4-0E56-406D-B735-0D6344C450A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ScratchAtDirt" ID="{5C73C20C-6DBD-4DE7-B4C9-F2C67A895857}" ShortID="358462976">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ScratchAtDirt" ID="{6FC5A6B4-F366-422D-8DF1-32FCC8E9DFBA}">
+											<Language>SFX</Language>
+											<AudioFile>ScratchAtDirt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="290921178"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ScratchAtDirt" ID="{6FC5A6B4-F366-422D-8DF1-32FCC8E9DFBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" ShortID="882686398">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dirtandrocksfalling1" ID="{ECC5E2A3-4106-410A-AA87-284775F053AA}" ShortID="1024350477">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dirtandrocksfalling1" ID="{ACFAE872-6BF6-42C5-9B22-031C73D23FA5}">
+											<Language>SFX</Language>
+											<AudioFile>Dirtandrocksfalling1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="902568669"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dirtandrocksfalling1" ID="{ACFAE872-6BF6-42C5-9B22-031C73D23FA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dirtandrocksfalling2" ID="{C5527172-C8F4-4841-9191-FEB8D47376FB}" ShortID="734922794">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dirtandrocksfalling2" ID="{CA7BF904-517B-4357-A9CF-D61E54F6D3B5}">
+											<Language>SFX</Language>
+											<AudioFile>Dirtandrocksfalling2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="570534142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dirtandrocksfalling2" ID="{CA7BF904-517B-4357-A9CF-D61E54F6D3B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dirtandrocksfalling3" ID="{A19ED518-8657-437D-8DA5-CB67338155FF}" ShortID="683272408">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dirtandrocksfalling3" ID="{D5CDD734-6ABA-430B-A5C9-EAE2F0A9F48D}">
+											<Language>SFX</Language>
+											<AudioFile>Dirtandrocksfalling3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="420939890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dirtandrocksfalling3" ID="{D5CDD734-6ABA-430B-A5C9-EAE2F0A9F48D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dirtandrocksfalling4" ID="{A0E90A12-78E6-4310-9CCD-258C7445019B}" ShortID="637131997">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dirtandrocksfalling4" ID="{5DC2BD38-F435-4D71-83FC-04571B81E623}">
+											<Language>SFX</Language>
+											<AudioFile>Dirtandrocksfalling4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5550412"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dirtandrocksfalling4" ID="{5DC2BD38-F435-4D71-83FC-04571B81E623}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
