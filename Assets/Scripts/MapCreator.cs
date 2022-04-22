@@ -13,6 +13,14 @@ public class MapCreator : MonoBehaviour
     [SerializeField]
     Ground groundPrefab;
 
+    [SerializeField]
+    Pickup gemPickup;
+
+    [SerializeField]
+    Pickup carrotPickup;
+
+    [SerializeField]
+    Pickup tomatoPickup;
 
     List<Ground> groundPool = new List<Ground>();
 
