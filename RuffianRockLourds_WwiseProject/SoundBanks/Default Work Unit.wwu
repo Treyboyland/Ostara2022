@@ -6,6 +6,7 @@
 				<SoundBank Name="AllInOne" ID="{5EFE78C3-E813-4071-8873-D8EE9F0AF31F}">
 					<ObjectInclusionList>
 						<ObjectRef Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CarrotEat" ID="{01096AB9-D8FF-4311-945D-72C4788565CE}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EnemyGrowl" ID="{B23DC4B7-8444-47AC-A644-60A3C3E44D2B}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
