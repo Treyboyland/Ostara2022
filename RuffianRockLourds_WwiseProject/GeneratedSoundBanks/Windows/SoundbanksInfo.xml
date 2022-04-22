@@ -22,7 +22,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="1236225172">
+		<SoundBank Id="2858921253" Language="SFX" Hash="1000792748">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -184,6 +184,22 @@
 						<File Id="902713250" Language="SFX">
 							<ShortName>Enemy Moan 4(11).wav</ShortName>
 							<Path>SFX\Enemy Moan 4(11)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1995458661" Name="GimmeCarrot" ObjectPath="\Events\Default Work Unit\GimmeCarrot" DurationType="OneShot" DurationMin="1.387392" DurationMax="1.738594">
+					<IncludedMemoryFiles>
+						<File Id="288198266" Language="SFX">
+							<ShortName>Rabbit Speech 1.wav</ShortName>
+							<Path>SFX\Rabbit Speech 1_10C4C929.wem</Path>
+						</File>
+						<File Id="801917381" Language="SFX">
+							<ShortName>Rabbit Speech 1(3).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(3)_10C4C929.wem</Path>
+						</File>
+						<File Id="937474425" Language="SFX">
+							<ShortName>Rabbit Speech 1(2).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(2)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

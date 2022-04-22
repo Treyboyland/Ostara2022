@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID DIRTFALL = 583926761U;
         static const AkUniqueID ENEMYGROWL = 3621073518U;
         static const AkUniqueID ENEMYMOAN = 3663202250U;
+        static const AkUniqueID GIMMECARROT = 1995458661U;
         static const AkUniqueID POSTMUSIC = 3750377736U;
         static const AkUniqueID STORMPLAY = 2951963734U;
         static const AkUniqueID STORMSTOP = 3723974632U;

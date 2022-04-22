@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	445985471	Dig			\Default Work Unit\Dig	
 	583926761	DirtFall			\Default Work Unit\DirtFall	
 	1592045786	CarrotEat			\Default Work Unit\CarrotEat	
+	1995458661	GimmeCarrot			\Default Work Unit\GimmeCarrot	
 	2951963734	StormPlay			\Default Work Unit\StormPlay	
 	3621073518	EnemyGrowl			\Default Work Unit\EnemyGrowl	
 	3663202250	EnemyMoan			\Default Work Unit\EnemyMoan	
@@ -32,6 +33,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	228283718	ScratchAtDirt(6)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(6)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(6)		28656
 	233870218	Enemy Moan 4(6)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Enemy Moan 4(6)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Moan\Enemy Moan 4(6)		31896
 	239312239	BunnyB150bpm9L - BassStaccato	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyB150bpm9L - BassStaccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicB\BunnyB150bpm9L - BassStaccato		247246
+	288198266	Rabbit Speech 1	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Rabbit Speech 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSpeech\GimmeCarrot\Rabbit Speech 1		126784
 	290921178	ScratchAtDirt	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt		33782
 	290998427	BunnyD150bpm9L - Flutes	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyD150bpm9L - Flutes(3)_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicD\BunnyD150bpm9L - Flutes		346335
 	305966815	BunnyC150bpm9L - BassStaccato	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyC150bpm9L - BassStaccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicC\BunnyC150bpm9L - BassStaccato		252776
@@ -62,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	731292806	BunnyD150bpm9L - Flutes	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyD150bpm9L - Flutes_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicD\BunnyD150bpm9L - Flutes		341484
 	787646453	ScratchAtDirt(3)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(3)		33782
 	795931700	BunnyB150bpm9L - Glock	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyB150bpm9L - Glock_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicB\BunnyB150bpm9L - Glock		356792
+	801917381	Rabbit Speech 1(3)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Rabbit Speech 1(3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSpeech\GimmeCarrot\Rabbit Speech 1(3)		122432
 	812711002	EnemyBunny 1(5)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\EnemyBunny 1(5)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Growl\EnemyBunny 1(5)		26728
 	831893341	BunnyB150bpm9L - Flutes	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyB150bpm9L - Flutes_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicB\BunnyB150bpm9L - Flutes		318717
 	843915913	ScratchAtDirt(13)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(13)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(13)		45122
@@ -69,6 +72,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	902713250	Enemy Moan 4(11)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Enemy Moan 4(11)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Moan\Enemy Moan 4(11)		27340
 	914841106	BunnyC150bpm9L - Flutes	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyC150bpm9L - Flutes_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicC\BunnyC150bpm9L - Flutes		320563
 	924249090	BunnyC150bpm9L - Glock	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyC150bpm9L - Glock_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicC\BunnyC150bpm9L - Glock		330606
+	937474425	Rabbit Speech 1(2)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Rabbit Speech 1(2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\PlayerSpeech\GimmeCarrot\Rabbit Speech 1(2)		153408
 	960613682	Carrot Eat 3(2)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Carrot Eat 3(2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\CarrotEat\Carrot Eat 3(2)		279698
 	967605378	ScratchAtDirt(8)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(8)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(8)		33404
 	1008286718	EnemyBunny 1(3)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\EnemyBunny 1(3)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Growl\EnemyBunny 1(3)		36838
