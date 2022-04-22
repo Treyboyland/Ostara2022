@@ -1,13 +1,15 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1136081764	DigTime			\Default Work Unit\DigTime	
+	1548096950	BackupMeter			\Default Work Unit\BackupMeter	
 	1655984259	PlayerDepthSlewed			\Default Work Unit\PlayerDepthSlewed	
 	1755200717	PlayerDepth			\Default Work Unit\PlayerDepth	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience	
-	289101121	SynthHigh			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\SynthHigh	
+	374987273	MusicMain			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\MusicMain	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	630186068	MStrings			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\MStrings	
+	842978000	Music Backup			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Music Backup	
 	1458896567	Music And Ambience			\Default Work Unit\Master Audio Bus\Music And Ambience	
 	1510358672	Roots			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Roots	
 	1686739424	Storm			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\Storm	
@@ -15,11 +17,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3363523641	Strings			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Strings	
 	3533120928	RainSequence			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\RainSequence	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3923599172	SynthChords			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\SynthChords	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music And Ambience\Music	
 
 Effect plug-ins	ID	Name	Type				Notes
 	62300054	Wwise Compressor (Custom)	Wwise Compressor			
+	113932559	Wwise Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
