@@ -34,7 +34,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -50,7 +50,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Storm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -95,6 +95,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CarrotEat" ID="{01096AB9-D8FF-4311-945D-72C4788565CE}">
+					<ChildrenList>
+						<Action Name="" ID="{D4DC2776-E374-4DF4-B677-C21089554644}" ShortID="518751428">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CarrotEat" ID="{8BA3F358-2716-4B44-8B40-33AEFCD9937B}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GimmeCarrot" ID="{E6F80D8E-BE70-4337-BBCF-3761697A2BBC}">
+					<ChildrenList>
+						<Action Name="" ID="{99DBEFEB-BA2F-40ED-A6DF-041A6BA26F42}" ShortID="382436876">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GimmeCarrot" ID="{98847CE8-667C-4DEA-B77D-7B97E7E45F5C}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

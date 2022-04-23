@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3909490650">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1583946823">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,11 +22,31 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="839281261">
+		<SoundBank Id="2858921253" Language="SFX" Hash="370409631">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1592045786" Name="CarrotEat" ObjectPath="\Events\Default Work Unit\CarrotEat" DurationType="OneShot" DurationMin="3.090748" DurationMax="3.728345">
+					<IncludedMemoryFiles>
+						<File Id="322252416" Language="SFX">
+							<ShortName>Carrot Eat 2(2).wav</ShortName>
+							<Path>SFX\Carrot Eat 2(2)_10C4C929.wem</Path>
+						</File>
+						<File Id="705053143" Language="SFX">
+							<ShortName>Carrot eat 4(2).wav</ShortName>
+							<Path>SFX\Carrot eat 4(2)_10C4C929.wem</Path>
+						</File>
+						<File Id="960613682" Language="SFX">
+							<ShortName>Carrot Eat 3(2).wav</ShortName>
+							<Path>SFX\Carrot Eat 3(2)_10C4C929.wem</Path>
+						</File>
+						<File Id="1043314286" Language="SFX">
+							<ShortName>Carrot eat 1(3).wav</ShortName>
+							<Path>SFX\Carrot eat 1(3)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="445985471" Name="Dig" ObjectPath="\Events\Default Work Unit\Dig" DurationType="OneShot" DurationMin="0.293356" DurationMax="0.510862">
 					<IncludedMemoryFiles>
 						<File Id="64630079" Language="SFX">
@@ -167,6 +187,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1995458661" Name="GimmeCarrot" ObjectPath="\Events\Default Work Unit\GimmeCarrot" DurationType="OneShot" DurationMin="1.387392" DurationMax="1.738594">
+					<IncludedMemoryFiles>
+						<File Id="288198266" Language="SFX">
+							<ShortName>Rabbit Speech 1.wav</ShortName>
+							<Path>SFX\Rabbit Speech 1_10C4C929.wem</Path>
+						</File>
+						<File Id="801917381" Language="SFX">
+							<ShortName>Rabbit Speech 1(3).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(3)_10C4C929.wem</Path>
+						</File>
+						<File Id="937474425" Language="SFX">
+							<ShortName>Rabbit Speech 1(2).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(2)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3750377736" Name="PostMusic" ObjectPath="\Events\Default Work Unit\PostMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="19184831" Language="SFX">
@@ -291,11 +327,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="248." DurationMax="248.">
+				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<IncludedMemoryFiles>
 						<File Id="98814477" Language="SFX">
 							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
-							<Path>SFX\RainStorm120bpm11E113L_9EDFC787.wem</Path>
+							<Path>SFX\RainStorm120bpm11E113L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

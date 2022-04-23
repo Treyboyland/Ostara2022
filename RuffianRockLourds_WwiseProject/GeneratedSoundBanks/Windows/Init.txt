@@ -5,6 +5,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1755200717	PlayerDepth			\Default Work Unit\PlayerDepth	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	36310906	EnemyNoises			\Default Work Unit\Master Audio Bus\SFX\EnemyNoises	
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience	
 	374987273	MusicMain			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\MusicMain	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -13,15 +14,19 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1458896567	Music And Ambience			\Default Work Unit\Master Audio Bus\Music And Ambience	
 	1510358672	Roots			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Roots	
 	1686739424	Storm			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\Storm	
+	2172801387	PlayerNoises			\Default Work Unit\Master Audio Bus\SFX\PlayerNoises	
 	2230590204	DigChimes			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\DigChimes	
 	3363523641	Strings			\Default Work Unit\Master Audio Bus\Music And Ambience\Music\Strings	
 	3533120928	RainSequence			\Default Work Unit\Master Audio Bus\Music And Ambience\Ambience\RainSequence	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music And Ambience\Music	
+	4245458931	Speech			\Default Work Unit\Master Audio Bus\SFX\Speech	
 
 Effect plug-ins	ID	Name	Type				Notes
 	62300054	Wwise Compressor (Custom)	Wwise Compressor			
 	113932559	Wwise Meter (Custom)	Wwise Meter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
