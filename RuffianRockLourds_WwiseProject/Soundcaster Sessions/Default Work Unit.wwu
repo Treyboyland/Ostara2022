@@ -61,7 +61,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}"/>
-							<Value>9.48074191900654E-312</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}"/>

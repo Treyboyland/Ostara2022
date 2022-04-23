@@ -41,6 +41,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DIG = 445985471U;
         static const AkUniqueID DIGCHIMES = 2230590204U;
         static const AkUniqueID ENEMYNOISES = 36310906U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
