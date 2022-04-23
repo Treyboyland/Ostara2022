@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Pickup" ID="{91213178-77CA-4C20-AAF2-5CA074572053}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Dig" ID="{A46A32A7-E7A3-49BC-B794-25B8658A73C9}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
 							<Position X="1" Y="0"/>
 						</Module>

@@ -924,6 +924,29 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
+						<Sound Name="PickupBad" ID="{92BA7F75-8F14-4954-B187-BDE9A92B67E3}" ShortID="1048053767">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PickupBad" ID="{D9B81786-9FB4-44BC-AA79-4B0F7A89A8C6}">
+									<Language>SFX</Language>
+									<AudioFile>PickupBad.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="944743218"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="PickupBad" ID="{D9B81786-9FB4-44BC-AA79-4B0F7A89A8C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
