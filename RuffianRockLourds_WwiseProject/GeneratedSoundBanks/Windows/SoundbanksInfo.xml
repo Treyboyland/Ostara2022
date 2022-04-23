@@ -22,7 +22,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="2405868979">
+		<SoundBank Id="2858921253" Language="SFX" Hash="665138225">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -203,6 +203,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3978245845" Name="Pickup" ObjectPath="\Triggers\Default Work Unit\Pickup"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="4152723942" Name="PickupBad" ObjectPath="\Events\Default Work Unit\PickupBad" DurationType="OneShot" DurationMin="4.8" DurationMax="4.8">
+					<IncludedMemoryFiles>
+						<File Id="944743218" Language="SFX">
+							<ShortName>PickupBad.wav</ShortName>
+							<Path>SFX\PickupBad_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3750377736" Name="PostMusic" ObjectPath="\Events\Default Work Unit\PostMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="19184831" Language="SFX">
@@ -305,6 +318,10 @@
 							<ShortName>BunnyD150bpm9L - Flutes.wav</ShortName>
 							<Path>SFX\BunnyD150bpm9L - Flutes_9EDFC787.wem</Path>
 						</File>
+						<File Id="737540936" Language="SFX">
+							<ShortName>Pickup3Tone.wav</ShortName>
+							<Path>SFX\Pickup3Tone_D79FB2B7.wem</Path>
+						</File>
 						<File Id="795931700" Language="SFX">
 							<ShortName>BunnyB150bpm9L - Glock.wav</ShortName>
 							<Path>SFX\BunnyB150bpm9L - Glock_9EDFC787.wem</Path>
@@ -327,7 +344,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="OneShot" DurationMin="0." DurationMax="0.">
+				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="98814477" Language="SFX">
 							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
@@ -337,6 +354,9 @@
 				</Event>
 				<Event Id="3723974632" Name="StormStop" ObjectPath="\Events\Default Work Unit\StormStop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
+			<Triggers>
+				<Trigger Id="3978245845" Name="Pickup" ObjectPath="\Triggers\Default Work Unit\Pickup"/>
+			</Triggers>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

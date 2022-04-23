@@ -19,6 +19,8 @@ namespace AK
         static const AkUniqueID ENEMYGROWL = 3621073518U;
         static const AkUniqueID ENEMYMOAN = 3663202250U;
         static const AkUniqueID GIMMECARROT = 1995458661U;
+        static const AkUniqueID PICKUP = 3978245845U;
+        static const AkUniqueID PICKUPBAD = 4152723942U;
         static const AkUniqueID POSTMUSIC = 3750377736U;
         static const AkUniqueID STORMPLAY = 2951963734U;
         static const AkUniqueID STORMSTOP = 3723974632U;
@@ -31,6 +33,11 @@ namespace AK
         static const AkUniqueID PLAYERDEPTH = 1755200717U;
         static const AkUniqueID PLAYERDEPTHSLEWED = 1655984259U;
     } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID PICKUP = 3978245845U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

@@ -2146,7 +2146,21 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="Stingers">
+							<Reference>
+								<Local>
+									<MusicStinger Name="" ID="{9628C79C-1DE5-4382-A527-22E5F7CBBBC7}">
+										<PropertyList>
+											<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+										</PropertyList>
+										<TriggerRef Name="Pickup" ID="{5B71498A-2F30-4D20-A757-5D1BA955F114}" WorkUnitID="{BE920338-0DDB-415E-A852-849CE37CC1D0}"/>
+										<SegmentRef Name="Pickup3Tone" ID="{5C980D2A-E21A-4CA1-8CE7-898028808824}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+									</MusicStinger>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{B30CB6BB-C2E8-465C-A652-71873214178F}" ShortID="534399481">
 							<PropertyList>
@@ -2193,7 +2207,7 @@
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+							<ObjectRef Name="Storm" ID="{8CB91783-9FB0-4114-B6BA-7170A8E4F5E5}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2355,9 +2369,105 @@
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{943F72A8-05EC-483C-8877-15F9EC4F248B}" ShortID="837168633">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="RainStorm" ID="{0954F0C6-9CD6-430A-9372-4D12E03BBD79}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<Folder Name="Stingers" ID="{DD9287B7-FE06-4D6B-A171-C04EA5790658}" ShortID="939320000">
+					<ChildrenList>
+						<MusicSegment Name="Pickup3Tone" ID="{5C980D2A-E21A-4CA1-8CE7-898028808824}" ShortID="297893059">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="7978.38899803536"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Pickup3Tone" ID="{58411B2F-C43D-4457-8FBB-64EBB01B79E2}" ShortID="69378944">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pickup3Tone" ID="{506F8395-048D-46A5-948D-ACB9CF568EAD}">
+											<Language>SFX</Language>
+											<AudioFile>Pickup3Tone.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737540936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AA17725A-DA8F-496B-91DA-5911F8428884}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{50CEA5CA-DA90-48A6-B8B0-F02B45E05776}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Pickup3Tone" ID="{EA93BFBA-1F0C-4A9A-BB2A-7094ED94656C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4800"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Pickup3Tone" ID="{506F8395-048D-46A5-948D-ACB9CF568EAD}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{CE7BFC6F-6E38-4C65-82FD-3F247891F08C}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{89C5A919-CD32-4890-B5FD-3FB58472C8F8}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="4799.60707269155"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

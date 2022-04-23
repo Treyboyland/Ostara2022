@@ -122,6 +122,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pickup" ID="{91213178-77CA-4C20-AAF2-5CA074572053}">
+					<ChildrenList>
+						<Action Name="" ID="{36F4288E-142E-4460-8689-172756FCD41E}" ShortID="232105997">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{5B71498A-2F30-4D20-A757-5D1BA955F114}" WorkUnitID="{BE920338-0DDB-415E-A852-849CE37CC1D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PickupBad" ID="{E029AC82-6AAA-4084-9D2E-EF4A1407AE54}">
+					<ChildrenList>
+						<Action Name="" ID="{12CD23CD-9351-4C5D-A2CA-394CFC3779AB}" ShortID="254116272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickupBad" ID="{92BA7F75-8F14-4954-B187-BDE9A92B67E3}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
