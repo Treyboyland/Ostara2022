@@ -130,6 +130,10 @@ MonoBehaviour:
   digSoundEvent:
     idInternal: 0
     valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 80ba338fc9e3ee04d876cd36c3a941e1, type: 2}
+  digStartEvent:
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8664296895fce014a9708dfc4f540e8d, type: 2}
   digTimeRTPC:
     idInternal: 0

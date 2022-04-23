@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 MovementVector { get { return movementVector; } }
 
+    public Vector2 Velocity { get { return body.velocity; } }
+
     public bool IsLeftPressed { get { return movementVector.x < 0; } }
     public bool IsRightPressed { get { return movementVector.x > 0; } }
 

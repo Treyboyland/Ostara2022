@@ -14,13 +14,24 @@ public class MapCreator : MonoBehaviour
     Ground groundPrefab;
 
     [SerializeField]
-    Pickup gemPickup;
+    MonoPool gemPickup;
 
     [SerializeField]
-    Pickup carrotPickup;
+    MonoPool carrotPickup;
 
     [SerializeField]
-    Pickup tomatoPickup;
+    MonoPool tomatoPickup;
+
+    [SerializeField]
+    Vector2Int tomatoRange;
+
+    [SerializeField]
+    Vector2Int carrotRange;
+
+    [SerializeField]
+    Vector2Int gemRange;
+
+    List<Vector3Int> mapIndices = new List<Vector3Int>();
 
     List<Ground> groundPool = new List<Ground>();
 
@@ -38,6 +49,11 @@ public class MapCreator : MonoBehaviour
         groundPool.Add(instance);
 
         return instance;
+    }
+
+    int GetRandomInt(Vector2Int range)
+    {
+        return Random.Range(range.x, range.y);
     }
 
     Ground GetGround()
@@ -70,11 +86,18 @@ public class MapCreator : MonoBehaviour
             for (int y = -1; y >= -depth; y--)
             {
                 Vector3 position = new Vector3(x, y, transform.position.z);
+                mapIndices.Add(new Vector3Int(x, y, (int)transform.position.z));
                 var ground = GetGround();
-                ground.transform.position = position;
+                ground.SetLocation(position);
                 ground.gameObject.SetActive(true);
             }
 
         }
+    }
+
+
+    void CreatePickups()
+    {
+        mapIndices.Shuffle();
     }
 }

@@ -15,6 +15,9 @@ public class Ground : MonoBehaviour
     AK.Wwise.Event digSoundEvent;
 
     [SerializeField]
+    AK.Wwise.Event digStartEvent;
+
+    [SerializeField]
     AK.Wwise.RTPC digTimeRTPC;
 
     public UnityEvent OnDirtBroken;
@@ -24,7 +27,6 @@ public class Ground : MonoBehaviour
     bool isDugOut = false;
 
     Vector3 location;
-
 
 
     // Start is called before the first frame update
@@ -78,6 +80,7 @@ public class Ground : MonoBehaviour
     IEnumerator DiggingCoroutine(float secondsToWait)
     {
         isDigging = true;
+        digStartEvent.Post(gameObject);
         float elapsed = 0;
         while (elapsed < secondsToWait)
         {

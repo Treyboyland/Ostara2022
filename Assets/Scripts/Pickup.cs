@@ -12,6 +12,7 @@ public abstract class Pickup : MonoBehaviour
         if (player != null)
         {
             PickupItem(player);
+            gameObject.SetActive(false);
         }
     }
 }

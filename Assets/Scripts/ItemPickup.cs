@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+public class ItemPickup : Pickup
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    Item item;
 
-    // Update is called once per frame
-    void Update()
+    public override void PickupItem(Player player)
     {
-        
+        player.AddToInventory(item);
     }
 }
