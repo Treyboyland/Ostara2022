@@ -2190,7 +2190,7 @@
 				<MusicPlaylistContainer Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" ShortID="610130534">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>

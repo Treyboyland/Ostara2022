@@ -392,7 +392,7 @@
 				<ActorMixer Name="Player" ID="{D8E4C88B-3BDC-40BB-97CA-D1FA37AD8855}" ShortID="1068453539">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="PlayerNoises" ID="{5F2F23E6-8BD0-4273-9AC6-4745B5201274}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
@@ -400,12 +400,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Dig" ID="{AC48F30D-719E-4D34-BA99-A08FF0736D5F}" ShortID="440180490">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+									<ObjectRef Name="Dig" ID="{8F60C5D0-3804-4545-8120-FB88A535D531}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

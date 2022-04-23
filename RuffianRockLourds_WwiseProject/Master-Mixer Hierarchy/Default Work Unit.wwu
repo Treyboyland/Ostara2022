@@ -48,6 +48,46 @@
 											</ValueList>
 										</Property>
 									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Dig" ID="{8F60C5D0-3804-4545-8120-FB88A535D531}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{ECA5EA85-F666-48C3-A097-8FEF9FB63BC4}" ShortID="798694676">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}" WorkUnitID="{A1E3D120-BB36-4CCC-B4B1-F73EA180CBD1}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B4D4F7B6-C299-4FE7-9A6A-E31AB60C5863}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>

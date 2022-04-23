@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1583946823">
+		<SoundBank Id="1355168291" Language="SFX" Hash="986836837">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -22,7 +22,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="370409631">
+		<SoundBank Id="2858921253" Language="SFX" Hash="2405868979">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -31,19 +31,19 @@
 					<IncludedMemoryFiles>
 						<File Id="322252416" Language="SFX">
 							<ShortName>Carrot Eat 2(2).wav</ShortName>
-							<Path>SFX\Carrot Eat 2(2)_10C4C929.wem</Path>
+							<Path>SFX\Carrot Eat 2(2)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="705053143" Language="SFX">
 							<ShortName>Carrot eat 4(2).wav</ShortName>
-							<Path>SFX\Carrot eat 4(2)_10C4C929.wem</Path>
+							<Path>SFX\Carrot eat 4(2)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="960613682" Language="SFX">
 							<ShortName>Carrot Eat 3(2).wav</ShortName>
-							<Path>SFX\Carrot Eat 3(2)_10C4C929.wem</Path>
+							<Path>SFX\Carrot Eat 3(2)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="1043314286" Language="SFX">
 							<ShortName>Carrot eat 1(3).wav</ShortName>
-							<Path>SFX\Carrot eat 1(3)_10C4C929.wem</Path>
+							<Path>SFX\Carrot eat 1(3)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -51,55 +51,55 @@
 					<IncludedMemoryFiles>
 						<File Id="64630079" Language="SFX">
 							<ShortName>ScratchAtDirt(11).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(11)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(11)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="66475309" Language="SFX">
 							<ShortName>ScratchAtDirt(7).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(7)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(7)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="81106031" Language="SFX">
 							<ShortName>ScratchAtDirt(4).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(4)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(4)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="106634983" Language="SFX">
 							<ShortName>ScratchAtDirt(12).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(12)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(12)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="138855402" Language="SFX">
 							<ShortName>ScratchAtDirt(2).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(2)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(2)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="228283718" Language="SFX">
 							<ShortName>ScratchAtDirt(6).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(6)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(6)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="290921178" Language="SFX">
 							<ShortName>ScratchAtDirt.wav</ShortName>
-							<Path>SFX\ScratchAtDirt_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt_3F75BDB9.wem</Path>
 						</File>
 						<File Id="521611845" Language="SFX">
 							<ShortName>ScratchAtDirt(10).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(10)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(10)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="593680895" Language="SFX">
 							<ShortName>ScratchAtDirt(9).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(9)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(9)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="787646453" Language="SFX">
 							<ShortName>ScratchAtDirt(3).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(3)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(3)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="843915913" Language="SFX">
 							<ShortName>ScratchAtDirt(13).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(13)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(13)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="967605378" Language="SFX">
 							<ShortName>ScratchAtDirt(8).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(8)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(8)_3F75BDB9.wem</Path>
 						</File>
 						<File Id="1028356872" Language="SFX">
 							<ShortName>ScratchAtDirt(5).wav</ShortName>
-							<Path>SFX\ScratchAtDirt(5)_10C4C929.wem</Path>
+							<Path>SFX\ScratchAtDirt(5)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -107,19 +107,19 @@
 					<IncludedMemoryFiles>
 						<File Id="5550412" Language="SFX">
 							<ShortName>Dirtandrocksfalling4.wav</ShortName>
-							<Path>SFX\Dirtandrocksfalling4_10C4C929.wem</Path>
+							<Path>SFX\Dirtandrocksfalling4_3F75BDB9.wem</Path>
 						</File>
 						<File Id="420939890" Language="SFX">
 							<ShortName>Dirtandrocksfalling3.wav</ShortName>
-							<Path>SFX\Dirtandrocksfalling3_10C4C929.wem</Path>
+							<Path>SFX\Dirtandrocksfalling3_3F75BDB9.wem</Path>
 						</File>
 						<File Id="570534142" Language="SFX">
 							<ShortName>Dirtandrocksfalling2.wav</ShortName>
-							<Path>SFX\Dirtandrocksfalling2_10C4C929.wem</Path>
+							<Path>SFX\Dirtandrocksfalling2_3F75BDB9.wem</Path>
 						</File>
 						<File Id="902568669" Language="SFX">
 							<ShortName>Dirtandrocksfalling1.wav</ShortName>
-							<Path>SFX\Dirtandrocksfalling1_10C4C929.wem</Path>
+							<Path>SFX\Dirtandrocksfalling1_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -331,7 +331,7 @@
 					<IncludedMemoryFiles>
 						<File Id="98814477" Language="SFX">
 							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
-							<Path>SFX\RainStorm120bpm11E113L_D79FB2B7.wem</Path>
+							<Path>SFX\RainStorm120bpm11E113L_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
