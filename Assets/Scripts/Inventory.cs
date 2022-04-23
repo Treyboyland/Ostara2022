@@ -4,10 +4,12 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public struct Inventory
+public struct Inventory : IEnumerable
 {
     [SerializeField]
     List<Item> items;
+
+    public List<Item> Items { get { return items; } }
 
     public void AddItem(string itemName, int count)
     {
@@ -41,5 +43,10 @@ public struct Inventory
         }
 
         items.Add(item);
+    }
+
+    public IEnumerator GetEnumerator()
+    {
+        return items.GetEnumerator();
     }
 }

@@ -23,6 +23,9 @@ public class MapCreator : MonoBehaviour
     MonoPool tomatoPickup;
 
     [SerializeField]
+    MonoPool dandelionPickup;
+
+    [SerializeField]
     Vector2Int tomatoRange;
 
     [SerializeField]
@@ -30,6 +33,9 @@ public class MapCreator : MonoBehaviour
 
     [SerializeField]
     Vector2Int gemRange;
+
+    [SerializeField]
+    Vector2Int dandelionRange;
 
     List<Vector3Int> mapIndices = new List<Vector3Int>();
 
@@ -39,6 +45,7 @@ public class MapCreator : MonoBehaviour
     void Start()
     {
         CreateMap();
+        CreatePickups();
     }
 
     Ground CreateGround()
@@ -95,9 +102,25 @@ public class MapCreator : MonoBehaviour
         }
     }
 
+    void CreateSpawn(ref int startingIndex, MonoPool pool, int count)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            var obj = pool.GetObject();
+            obj.transform.position = mapIndices[startingIndex];
+            obj.gameObject.SetActive(true);
+            startingIndex++;
+        }
+    }
+
 
     void CreatePickups()
     {
         mapIndices.Shuffle();
+        int index = 0;
+        CreateSpawn(ref index, gemPickup, GetRandomInt(gemRange));
+        CreateSpawn(ref index, carrotPickup, GetRandomInt(carrotRange));
+        CreateSpawn(ref index, tomatoPickup, GetRandomInt(tomatoRange));
+        CreateSpawn(ref index, dandelionPickup, GetRandomInt(dandelionRange));
     }
 }

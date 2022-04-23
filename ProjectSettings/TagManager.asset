@@ -44,11 +44,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Treasure Normal
-    uniqueID: 394939269
+  - name: Enemy
+    uniqueID: 1661045805
     locked: 0
   - name: Ground Front
     uniqueID: 2681192805
+    locked: 0
+  - name: Treasure Normal
+    uniqueID: 394939269
     locked: 0
   - name: Player
     uniqueID: 4249500719

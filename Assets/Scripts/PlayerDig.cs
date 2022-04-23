@@ -13,11 +13,22 @@ public class PlayerDig : MonoBehaviour
     [SerializeField]
     PlayerRaycast leftRaycast, rightRayCast, topRaycast, bottomRaycast;
 
+    [SerializeField]
+    AK.Wwise.Event digEvent;
+
     Ground currentGround;
     
     private void Update()
     {
         CheckDigging();
+    }
+
+    public void CallDigEvent()
+    {
+        if(currentGround != null)
+        {
+            digEvent.Post(currentGround.gameObject);
+        }
     }
 
     void CheckDigging()

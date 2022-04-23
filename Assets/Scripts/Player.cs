@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     Inventory inventory;
 
+    public Inventory Inventory { get { return inventory; } }
+
+    public UnityEvent OnInventoryUpdated = new UnityEvent();
 
     private void Start()
     {
@@ -42,5 +46,6 @@ public class Player : MonoBehaviour
     public void AddToInventory(Item item)
     {
         inventory.AddItem(item);
+        OnInventoryUpdated.Invoke();
     }
 }

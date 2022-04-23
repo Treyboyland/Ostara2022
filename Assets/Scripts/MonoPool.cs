@@ -21,7 +21,7 @@ public class MonoPool : MonoBehaviour
         return instance;
     }
 
-    public MonoBehaviour GetGround()
+    public MonoBehaviour GetObject()
     {
         foreach (var obj in pool)
         {
@@ -32,5 +32,13 @@ public class MonoPool : MonoBehaviour
         }
 
         return CreateObject();
+    }
+
+    public void DisableAll()
+    {
+        foreach(var obj in pool)
+        {
+            obj.gameObject.SetActive(false);
+        }
     }
 }

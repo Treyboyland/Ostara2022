@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2936823374491861063}
   - component: {fileID: 211931645405383412}
   m_Layer: 0
-  m_Name: Pickup Tomato
+  m_Name: Pickup Dandelion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    itemName: Tomato
+    itemName: Dandelion
     count: 1
 --- !u!58 &211931645405383412
 CircleCollider2D:
@@ -133,10 +133,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 394939269
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 0.754717, g: 0, b: 0.06436906, a: 1}
+  m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
