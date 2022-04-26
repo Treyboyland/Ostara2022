@@ -3,12 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{48062A52-F210-4A62-B768-CCED457040C4}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Studio One Songs\Songs\Bunny SFX Laptop\Mixdown\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Unity Projects\GitHub\RollaballPremium\SoundFiles\"/>
 				<Property Name="Event Action List\{162004D2-BA0E-4641-A897-7DCDC0512C70}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3856D5ED-51C7-4967-917F-BDDCF63DD8A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6B8F3DFF-78CE-473E-A825-6795B447B5E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{84A159D7-A8DB-407E-83EC-1DD279FC6628}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{91213178-77CA-4C20-AAF2-5CA074572053}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9E35D495-5CE7-47F8-A98C-EE983682DAA5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E029AC82-6AAA-4084-9D2E-EF4A1407AE54}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E6F80D8E-BE70-4337-BBCF-3761697A2BBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -26,7 +29,7 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Linux"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="SoRauXxPcE60UdZw/nlOtQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="w3j+XhPocUCIc9junwrzHw=="/>
@@ -57,8 +60,8 @@
 				<Property Name="ProjectExplorer\FirstVisible_9_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="n8wdsf4MX0qV4chLkqGxbA=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="n8wdsf4MX0qV4chLkqGxbKYc2A8nErFMh8uO/YzTGDu3h5LdBv5rTaFxwE6leQZYxIMUwFO1KE+6CsE34CszwQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value="OAOSvtsNXkGoUoSc43zB0A=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
@@ -70,10 +73,10 @@
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="i8jk2Nw7u0CXytH6N62IVURKJkQbLlxOqjFrSGS+PkEfHSX7QvPLT4ivgf5dW//z"/>
-				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="zCk3cwvylkGgOwFBIFFFLw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="xibmWmvlfE+zaG7qsyF6vw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{2DA32B07-7390-405A-A32A-1B76ECD9BE23}" Type="Real64" Value="0"/>

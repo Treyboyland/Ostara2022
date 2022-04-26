@@ -371,6 +371,9 @@
 											</PropertyList>
 											<ObjectLists/>
 										</Bus>
+										<Bus Name="DaytimeAmbience" ID="{A5E6438A-6931-4D11-857F-DB13ED96AB86}">
+											<ObjectLists/>
+										</Bus>
 									</ChildrenList>
 									<ObjectLists/>
 								</Bus>

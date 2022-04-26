@@ -14,17 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}">
-					<ChildrenList>
-						<Action Name="" ID="{91A222C5-F6AE-4B07-8C5D-CBAF41CC7142}" ShortID="392469970">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{C01483C4-B553-4F28-BA0A-C137E02B33C1}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}">
 					<ChildrenList>
 						<Action Name="" ID="{1DF6BD5C-B50C-4DAC-822B-F8A6A74FA34A}" ShortID="872075449">
@@ -35,6 +24,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08236866-3C16-4E4D-909C-A566A7692860}" ShortID="33337878">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrontYardWindyDay(3)" ID="{B9D6A72E-DAAE-427B-B88D-DAD1F8E8C17D}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -51,6 +51,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Storm" ID="{0FD81CA6-1227-4CB1-87CB-8EFD8CD3183B}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{33895CE6-B8B1-4A05-B604-D284EDEA93EF}" ShortID="636301362">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="8"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrontYardWindyDay(3)" ID="{B9D6A72E-DAAE-427B-B88D-DAD1F8E8C17D}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -142,6 +152,32 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PickupBad" ID="{92BA7F75-8F14-4954-B187-BDE9A92B67E3}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Music" ID="{FA9BD001-D4CF-466F-9914-DF13F869F72B}" ShortID="576688126">
+					<ChildrenList>
+						<Event Name="PostMusic" ID="{6B8F3DFF-78CE-473E-A825-6795B447B5E4}">
+							<ChildrenList>
+								<Action Name="" ID="{91A222C5-F6AE-4B07-8C5D-CBAF41CC7142}" ShortID="392469970">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{C01483C4-B553-4F28-BA0A-C137E02B33C1}" WorkUnitID="{B11DCC9F-0CFE-4A5F-95E1-C84B92A1B16C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="PostAmbience" ID="{9E35D495-5CE7-47F8-A98C-EE983682DAA5}">
+					<ChildrenList>
+						<Action Name="" ID="{0B8A3E90-7168-4E77-AFBA-CBCDF18F0BDA}" ShortID="1038492353">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FrontYardWindyDay(3)" ID="{B9D6A72E-DAAE-427B-B88D-DAD1F8E8C17D}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

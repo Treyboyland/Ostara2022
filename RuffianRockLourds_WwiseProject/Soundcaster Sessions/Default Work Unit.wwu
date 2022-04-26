@@ -34,6 +34,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PostAmbience" ID="{9E35D495-5CE7-47F8-A98C-EE983682DAA5}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="StormPlay" ID="{162004D2-BA0E-4641-A897-7DCDC0512C70}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
 							<Position X="2" Y="0"/>
 						</Module>

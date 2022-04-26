@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{5AE626C6-E56B-4F7C-B368-6EEAB3217ABF}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="AllInOne" ID="{5EFE78C3-E813-4071-8873-D8EE9F0AF31F}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>100000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PickupBad" ID="{E029AC82-6AAA-4084-9D2E-EF4A1407AE54}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}" Origin="Manual" Filter="7"/>

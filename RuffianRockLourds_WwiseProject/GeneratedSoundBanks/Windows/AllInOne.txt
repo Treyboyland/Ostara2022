@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	445985471	Dig			\Default Work Unit\Dig	
+	525674803	PostAmbience			\Default Work Unit\PostAmbience	
 	583926761	DirtFall			\Default Work Unit\DirtFall	
 	1592045786	CarrotEat			\Default Work Unit\CarrotEat	
 	1995458661	GimmeCarrot			\Default Work Unit\GimmeCarrot	
@@ -7,7 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3621073518	EnemyGrowl			\Default Work Unit\EnemyGrowl	
 	3663202250	EnemyMoan			\Default Work Unit\EnemyMoan	
 	3723974632	StormStop			\Default Work Unit\StormStop	
-	3750377736	PostMusic			\Default Work Unit\PostMusic	
+	3750377736	PostMusic			\Default Work Unit\Music\PostMusic	
 	3978245845	Pickup			\Default Work Unit\Pickup	
 	4152723942	PickupBad			\Default Work Unit\PickupBad	
 
@@ -60,6 +61,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	570534142	Dirtandrocksfalling2	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Dirtandrocksfalling2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DirtFall\Dirtandrocksfalling2		35149
 	573502485	BunnyA150bpm9L1_4P - ViolinStaccato	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyA150bpm9L1_4P - ViolinStaccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicA\BunnyA150bpm9L1_4P - ViolinStaccato		313054
 	593680895	ScratchAtDirt(9)	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(9)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(9)		4827
+	613126712	FrontYardWindyDay(3)	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\FrontYardWindyDay(3)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\FrontYardWindyDay(3)		852163
 	625002143	BunnyD150bpm9L - Winds	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyD150bpm9L - Winds_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicD\BunnyD150bpm9L - Winds		291461
 	650611706	BunnyC150bpm9L - Violas Staccato	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyC150bpm9L - Violas Staccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicC\BunnyC150bpm9L - Violas Staccato		241742
 	656484968	BunnyD150bpm9L - Drums	C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyD150bpm9L - Drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicD\BunnyD150bpm9L - Drums		199829
