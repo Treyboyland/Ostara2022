@@ -18,7 +18,7 @@ public class InventoryUI : MonoBehaviour
     void UpdateUI()
     {
         itemUIPool.DisableAll();
-        foreach (var item in player.Inventory.Items)
+        foreach (var item in player.Inventory)
         {
             if(item.ItemName == "Carrot")
             {

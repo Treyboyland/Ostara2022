@@ -4,12 +4,10 @@ using UnityEngine;
 using System;
 
 [Serializable]
-public struct Inventory : IEnumerable
+public struct Inventory : IEnumerable<Item>
 {
     [SerializeField]
     List<Item> items;
-
-    public List<Item> Items { get { return items; } }
 
     public void AddItem(string itemName, int count)
     {
@@ -26,6 +24,20 @@ public struct Inventory : IEnumerable
         }
 
         items.Add(new Item() { ItemName = itemName, Count = count });
+    }
+
+    public int GetNumberOfItem(string itemName)
+    {
+        int count = 0;
+        foreach (var item in items)
+        {
+            if (item.ItemName == itemName)
+            {
+                count += item.Count;
+            }
+        }
+
+        return count;
     }
 
     public void AddItem(Item item)
@@ -45,8 +57,19 @@ public struct Inventory : IEnumerable
         items.Add(item);
     }
 
-    public IEnumerator GetEnumerator()
+    IEnumerator IEnumerable.GetEnumerator()
     {
-        return items.GetEnumerator();
+        //Explicit interface implementation https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation
+        return GetEnumerator();
+    }
+
+
+    public IEnumerator<Item> GetEnumerator()
+    {
+
+        foreach (var item in items)
+        {
+            yield return item;
+        }
     }
 }

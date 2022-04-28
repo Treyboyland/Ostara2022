@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class MapCreator : MonoBehaviour
 {
@@ -41,6 +42,18 @@ public class MapCreator : MonoBehaviour
 
     List<Ground> groundPool = new List<Ground>();
 
+    [SerializeField]
+    List<PickupData> pickups;
+
+
+    [Serializable]
+    struct PickupData
+    {
+        public MonoPool Pool;
+        public Vector2Int Range;
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +73,7 @@ public class MapCreator : MonoBehaviour
 
     int GetRandomInt(Vector2Int range)
     {
-        return Random.Range(range.x, range.y);
+        return UnityEngine.Random.Range(range.x, range.y);
     }
 
     Ground GetGround()
@@ -118,9 +131,11 @@ public class MapCreator : MonoBehaviour
     {
         mapIndices.Shuffle();
         int index = 0;
-        CreateSpawn(ref index, gemPickup, GetRandomInt(gemRange));
-        CreateSpawn(ref index, carrotPickup, GetRandomInt(carrotRange));
-        CreateSpawn(ref index, tomatoPickup, GetRandomInt(tomatoRange));
-        CreateSpawn(ref index, dandelionPickup, GetRandomInt(dandelionRange));
+
+        foreach (var data in pickups)
+        {
+            data.Pool.DisableAll();
+            CreateSpawn(ref index, data.Pool, GetRandomInt(data.Range));
+        }
     }
 }

@@ -45,6 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8db92e4bf298484ba2afdbf8f34b9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 89014674908be304faf657423c88cb5a, type: 2}
   item:
     itemName: Dandelion
     count: 1
@@ -136,7 +140,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.754717, g: 0.754717, b: 0.010679938, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

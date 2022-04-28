@@ -12,6 +12,8 @@ public class SlowCrawl : MonoBehaviour
 
     static Player player;
 
+    public bool CanMove { get; set; } = true;
+
     void FindPlayer()
     {
         if (player == null)
@@ -67,6 +69,10 @@ public class SlowCrawl : MonoBehaviour
         FindPlayer();
         while (true)
         {
+            if (!CanMove)
+            {
+                yield return null;
+            }
             yield return new WaitForSeconds(secondsBetweenMoves);
             FindPlayer();
             Vector3 nextPos = GetNextPosition(), startPos = transform.position;
