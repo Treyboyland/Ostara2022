@@ -40,17 +40,31 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Environment" ID="{44264A44-2E1B-4E5C-AA31-6B4864BE3E41}" ShortID="429095956">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Std Distance" ID="{B5A981A2-2AA5-486F-A50C-D03ECAD1EEE2}" WorkUnitID="{BFC874AF-4DE4-47CE-A112-18D9DAEC4FA1}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="EnemyNoises" ID="{DA5780C6-2EB2-4A9E-99E5-479F495ABFAC}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="DistanceReverb" ID="{E3EB3211-91FB-4FE4-B9F9-4774F7B6A235}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Enemy Moan" ID="{E70E8CD2-BCF4-44CC-912B-5948F34EF94B}" ShortID="489733211">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -426,6 +440,11 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Dig" ID="{AC48F30D-719E-4D34-BA99-A08FF0736D5F}" ShortID="440180490">
 							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -740,9 +759,20 @@
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" ShortID="882686398">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4ADDA421-8D69-48E0-A41A-79DB243CE99D}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Boost_3dB_100Hz" ID="{3EA7C9BD-6F9A-4000-A227-F86B5B4328EE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{037664EE-57CD-4CEE-BB0E-E6DE08A127D0}"/>

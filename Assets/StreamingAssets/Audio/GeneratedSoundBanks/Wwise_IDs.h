@@ -21,7 +21,6 @@ namespace AK
         static const AkUniqueID GIMMECARROT = 1995458661U;
         static const AkUniqueID PICKUP = 3978245845U;
         static const AkUniqueID PICKUPBAD = 4152723942U;
-        static const AkUniqueID POSTAMBIENCE = 525674803U;
         static const AkUniqueID POSTMUSIC = 3750377736U;
         static const AkUniqueID STORMPLAY = 2951963734U;
         static const AkUniqueID STORMSTOP = 3723974632U;
@@ -67,6 +66,11 @@ namespace AK
         static const AkUniqueID STORM = 1686739424U;
         static const AkUniqueID STRINGS = 3363523641U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID DISTANCEREVERB = 2334881412U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

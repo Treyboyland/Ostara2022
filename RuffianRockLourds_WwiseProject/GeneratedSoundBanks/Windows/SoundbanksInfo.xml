@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Unity Projects\GitHub\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2575548545">
+		<SoundBank Id="1355168291" Language="SFX" Hash="337975184">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1136081764" Name="DigTime" ObjectPath="\Game Parameters\Default Work Unit\DigTime"/>
 				<GameParameter Id="1548096950" Name="BackupMeter" ObjectPath="\Game Parameters\Default Work Unit\BackupMeter"/>
@@ -22,7 +25,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="3141625347">
+		<SoundBank Id="2858921253" Language="SFX" Hash="3744754247">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -123,7 +126,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3621073518" Name="EnemyGrowl" ObjectPath="\Events\Default Work Unit\EnemyGrowl" DurationType="OneShot" DurationMin="1.270227" DurationMax="3.980023">
+				<Event Id="3621073518" Name="EnemyGrowl" ObjectPath="\Events\Default Work Unit\EnemyGrowl" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.270227" DurationMax="3.980023">
 					<IncludedMemoryFiles>
 						<File Id="190882544" Language="SFX">
 							<ShortName>EnemyBunny 1(7).wav</ShortName>
@@ -154,8 +157,11 @@
 							<Path>SFX\EnemyBunny 1(3)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+					</AuxBusSends>
 				</Event>
-				<Event Id="3663202250" Name="EnemyMoan" ObjectPath="\Events\Default Work Unit\EnemyMoan" DurationType="OneShot" DurationMin="3.087936" DurationMax="5.680703">
+				<Event Id="3663202250" Name="EnemyMoan" ObjectPath="\Events\Default Work Unit\EnemyMoan" MaxAttenuation="100." DurationType="OneShot" DurationMin="3.087936" DurationMax="5.680703">
 					<IncludedMemoryFiles>
 						<File Id="157676568" Language="SFX">
 							<ShortName>Enemy Moan 4(10).wav</ShortName>
@@ -186,6 +192,9 @@
 							<Path>SFX\Enemy Moan 4(11)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1995458661" Name="GimmeCarrot" ObjectPath="\Events\Default Work Unit\GimmeCarrot" DurationType="OneShot" DurationMin="1.387392" DurationMax="1.738594">
 					<IncludedMemoryFiles>
@@ -213,14 +222,6 @@
 						<File Id="944743218" Language="SFX">
 							<ShortName>PickupBad.wav</ShortName>
 							<Path>SFX\PickupBad_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="525674803" Name="PostAmbience" ObjectPath="\Events\Default Work Unit\PostAmbience" DurationType="OneShot" DurationMin="60." DurationMax="60.">
-					<IncludedMemoryFiles>
-						<File Id="613126712" Language="SFX">
-							<ShortName>FrontYardWindyDay(3).wav</ShortName>
-							<Path>SFX\FrontYardWindyDay(3)_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -364,7 +365,7 @@
 					<IncludedMemoryFiles>
 						<File Id="613126712" Language="SFX">
 							<ShortName>FrontYardWindyDay(3).wav</ShortName>
-							<Path>SFX\FrontYardWindyDay(3)_3F75BDB9.wem</Path>
+							<Path>SFX\FrontYardWindyDay(3)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

@@ -24,9 +24,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music And Ambience\Music	
 	4245458931	Speech			\Default Work Unit\Master Audio Bus\SFX\Speech	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2334881412	DistanceReverb			\Default Work Unit\Master Audio Bus\DistanceReverb	
+
 Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	62300054	Wwise Compressor (Custom)	Wwise Compressor			
 	113932559	Wwise Meter (Custom)	Wwise Meter			
+	960762675	New_Wwise_Delay	Wwise Delay			
 	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
 	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
 

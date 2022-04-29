@@ -2385,6 +2385,11 @@
 						<MusicSegment Name="Pickup3Tone" ID="{5C980D2A-E21A-4CA1-8CE7-898028808824}" ShortID="297893059">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="7978.38899803536"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

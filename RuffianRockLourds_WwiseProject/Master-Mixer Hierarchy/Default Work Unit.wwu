@@ -116,7 +116,7 @@
 													</Point>
 													<Point>
 														<XPos>100</XPos>
-														<YPos>-3.27524</YPos>
+														<YPos>-0.90133</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -173,7 +173,7 @@
 												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<ValueList>
-														<Value>-4</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Lowpass" Type="int16">
@@ -400,7 +400,7 @@
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>43</YPos>
+																<YPos>16</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -544,6 +544,17 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
+						<AuxBus Name="DistanceReverb" ID="{E3EB3211-91FB-4FE4-B9F9-4774F7B6A235}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="New_Wwise_Delay" ID="{E36CA133-9785-4D52-B054-9693FDCA0225}" WorkUnitID="{E2C6CCE6-CE7E-479F-A8EB-1A318F623713}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
