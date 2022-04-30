@@ -50,6 +50,10 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PickupBad" ID="{E029AC82-6AAA-4084-9D2E-EF4A1407AE54}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="StormStop" ID="{84A159D7-A8DB-407E-83EC-1DD279FC6628}" WorkUnitID="{733729CC-F20B-4196-A03B-01412051452F}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -69,7 +73,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="DigTime" ID="{6E00ED25-B4C3-4161-8338-1C78525A9EAE}"/>
-							<Value>7</Value>
+							<Value>15</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerDepthSlewed" ID="{CD772F05-D79E-41B1-AF88-B8833C37673C}"/>

@@ -8,7 +8,16 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{01ECEE77-A4BE-4E6E-9627-F6BFA9054713}" WorkUnitID="{8EBFE315-F2E2-44A1-8FE8-71F29BD65F50}"/>
 						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Gain (Custom)" ID="{EE553D7A-A9AA-486D-A649-D29718BC3D14}" ShortID="725148068" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<PropertyList>
+										<Property Name="FullBandGain" Type="Real32" Value="0.5"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 					</ReferenceList>
@@ -34,7 +43,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -44,7 +53,7 @@
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -169,11 +178,6 @@
 												<Property Name="BusChannelConfig" Type="int32">
 													<ValueList>
 														<Value>12546</Value>
-													</ValueList>
-												</Property>
-												<Property Name="BusVolume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Lowpass" Type="int16">

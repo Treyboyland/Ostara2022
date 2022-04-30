@@ -15,6 +15,7 @@ Trigger	ID	Name			Wwise Object Path	Notes
 	3978245845	Pickup			\Default Work Unit\Pickup	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1865172355	New_Wwise_Gain	Wwise Gain			
 	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -44,6 +45,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	288198266	Rabbit Speech 1	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Rabbit Speech 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Speech\PlayerSpeech\GimmeCarrot\Rabbit Speech 1		126784
 	290921178	ScratchAtDirt	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt		4154
 	290998427	BunnyD150bpm9L - Flutes	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyD150bpm9L - Flutes(3)_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicD\BunnyD150bpm9L - Flutes		346335
+	291847094	Dig Poof2	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Dig Poof2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DigPoof\Dig Poof2		12483
+	304916205	Dig Poof3	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Dig Poof3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DigPoof\Dig Poof3		12326
 	305966815	BunnyC150bpm9L - BassStaccato	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyC150bpm9L - BassStaccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicC\BunnyC150bpm9L - BassStaccato		252776
 	322252416	Carrot Eat 2(2)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Carrot Eat 2(2)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\CarrotEat\Carrot Eat 2(2)		37183
 	404675934	EnemyBunny 1(9)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\EnemyBunny 1(9)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Growl\EnemyBunny 1(9)		13432
@@ -54,6 +57,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	462319159	BunnyB150bpm9L - Violas Staccato	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\BunnyB150bpm9L - Violas Staccato_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MusicB\BunnyB150bpm9L - Violas Staccato		258225
 	483799909	Enemy Moan 4(5)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Enemy Moan 4(5)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Moan\Enemy Moan 4(5)		31189
 	485077574	Enemy Moan 4(9)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Enemy Moan 4(9)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Moan\Enemy Moan 4(9)		49948
+	492496285	Dig Poof4	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Dig Poof4_4EA29DD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\DigPoof\Dig Poof4		12759
 	510868528	EnemyBunny 1(4)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\EnemyBunny 1(4)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Growl\EnemyBunny 1(4)		31809
 	521611845	ScratchAtDirt(10)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\ScratchAtDirt(10)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Dig\ScratchAtDirt(10)		3513
 	546958333	Enemy Moan 4(8)	F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\SFX\Enemy Moan 4(8)_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Enemy Moan\Enemy Moan 4(8)		42097

@@ -19,7 +19,7 @@
 						<Action Name="" ID="{1DF6BD5C-B50C-4DAC-822B-F8A6A74FA34A}" ShortID="872075449">
 							<PropertyList>
 								<Property Name="FadeInCurve" Type="int16" Value="6"/>
-								<Property Name="FadeTime" Type="Real64" Value="4"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -105,6 +105,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DirtFall" ID="{DC454177-0DEE-42A5-943F-7B4E4FE3B8EB}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F4BDA616-34BC-4D81-AD21-B022B64254FF}" ShortID="454212055">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DigPoof" ID="{A021C871-E6B2-4C6F-AE3C-FDC6BB256D70}" WorkUnitID="{FB251D1F-F342-4FCB-88AF-81FE5D5BFFF3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

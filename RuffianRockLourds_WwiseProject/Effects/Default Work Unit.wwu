@@ -10,6 +10,11 @@
 						<Property Name="WetDryMix" Type="Real32" Value="31"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_Wwise_Gain" ID="{3C25819A-D51B-420A-931C-8C3B25B10117}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="24"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

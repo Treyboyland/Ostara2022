@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="337975184">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4016531434">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -25,7 +25,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="3744754247">
+		<SoundBank Id="2858921253" Language="SFX" Hash="2351603909">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -112,9 +112,21 @@
 							<ShortName>Dirtandrocksfalling4.wav</ShortName>
 							<Path>SFX\Dirtandrocksfalling4_3F75BDB9.wem</Path>
 						</File>
+						<File Id="291847094" Language="SFX">
+							<ShortName>Dig Poof2.wav</ShortName>
+							<Path>SFX\Dig Poof2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="304916205" Language="SFX">
+							<ShortName>Dig Poof3.wav</ShortName>
+							<Path>SFX\Dig Poof3_3F75BDB9.wem</Path>
+						</File>
 						<File Id="420939890" Language="SFX">
 							<ShortName>Dirtandrocksfalling3.wav</ShortName>
 							<Path>SFX\Dirtandrocksfalling3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="492496285" Language="SFX">
+							<ShortName>Dig Poof4.wav</ShortName>
+							<Path>SFX\Dig Poof4_4EA29DD8.wem</Path>
 						</File>
 						<File Id="570534142" Language="SFX">
 							<ShortName>Dirtandrocksfalling2.wav</ShortName>
