@@ -8,7 +8,9 @@ public class PlayerDig : MonoBehaviour
     PlayerController playerController;
 
     [SerializeField]
-    public float digTime;
+    float digTime;
+
+    public float DigTime { get { return digTime; } set { digTime = value; } }
 
     [SerializeField]
     PlayerRaycast leftRaycast, rightRayCast, topRaycast, bottomRaycast;
@@ -17,7 +19,7 @@ public class PlayerDig : MonoBehaviour
     AK.Wwise.Event digEvent;
 
     Ground currentGround;
-    
+
     private void Update()
     {
         CheckDigging();
@@ -25,7 +27,7 @@ public class PlayerDig : MonoBehaviour
 
     public void CallDigEvent()
     {
-        if(currentGround != null)
+        if (currentGround != null)
         {
             digEvent.Post(currentGround.gameObject);
         }

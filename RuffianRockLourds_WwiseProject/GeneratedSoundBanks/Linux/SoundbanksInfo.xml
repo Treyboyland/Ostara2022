@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Linux" BasePlatform="Linux" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Linux\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Linux\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Linux</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3033677319">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1136081764" Name="DigTime" ObjectPath="\Game Parameters\Default Work Unit\DigTime"/>
+				<GameParameter Id="1548096950" Name="BackupMeter" ObjectPath="\Game Parameters\Default Work Unit\BackupMeter"/>
+				<GameParameter Id="1655984259" Name="PlayerDepthSlewed" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepthSlewed"/>
+				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2858921253" Language="SFX" Hash="2284525888">
+			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
+			<ShortName>AllInOne</ShortName>
+			<Path>AllInOne.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1592045786" Name="CarrotEat" ObjectPath="\Events\Default Work Unit\CarrotEat" DurationType="OneShot" DurationMin="3.090748" DurationMax="3.728345">
+					<IncludedMemoryFiles>
+						<File Id="322252416" Language="SFX">
+							<ShortName>Carrot Eat 2(2).wav</ShortName>
+							<Path>SFX\Carrot Eat 2(2)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="705053143" Language="SFX">
+							<ShortName>Carrot eat 4(2).wav</ShortName>
+							<Path>SFX\Carrot eat 4(2)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="960613682" Language="SFX">
+							<ShortName>Carrot Eat 3(2).wav</ShortName>
+							<Path>SFX\Carrot Eat 3(2)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1043314286" Language="SFX">
+							<ShortName>Carrot eat 1(3).wav</ShortName>
+							<Path>SFX\Carrot eat 1(3)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="445985471" Name="Dig" ObjectPath="\Events\Default Work Unit\Dig" DurationType="OneShot" DurationMin="0.293356" DurationMax="0.510862">
+					<IncludedMemoryFiles>
+						<File Id="64630079" Language="SFX">
+							<ShortName>ScratchAtDirt(11).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(11)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="66475309" Language="SFX">
+							<ShortName>ScratchAtDirt(7).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(7)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="81106031" Language="SFX">
+							<ShortName>ScratchAtDirt(4).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(4)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="106634983" Language="SFX">
+							<ShortName>ScratchAtDirt(12).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(12)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="138855402" Language="SFX">
+							<ShortName>ScratchAtDirt(2).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(2)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="228283718" Language="SFX">
+							<ShortName>ScratchAtDirt(6).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(6)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="290921178" Language="SFX">
+							<ShortName>ScratchAtDirt.wav</ShortName>
+							<Path>SFX\ScratchAtDirt_3F75BDB9.wem</Path>
+						</File>
+						<File Id="521611845" Language="SFX">
+							<ShortName>ScratchAtDirt(10).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(10)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="593680895" Language="SFX">
+							<ShortName>ScratchAtDirt(9).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(9)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="787646453" Language="SFX">
+							<ShortName>ScratchAtDirt(3).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(3)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="843915913" Language="SFX">
+							<ShortName>ScratchAtDirt(13).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(13)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="967605378" Language="SFX">
+							<ShortName>ScratchAtDirt(8).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(8)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1028356872" Language="SFX">
+							<ShortName>ScratchAtDirt(5).wav</ShortName>
+							<Path>SFX\ScratchAtDirt(5)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="583926761" Name="DirtFall" ObjectPath="\Events\Default Work Unit\DirtFall" DurationType="OneShot" DurationMin="1.272708" DurationMax="2.000104">
+					<IncludedMemoryFiles>
+						<File Id="5550412" Language="SFX">
+							<ShortName>Dirtandrocksfalling4.wav</ShortName>
+							<Path>SFX\Dirtandrocksfalling4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="291847094" Language="SFX">
+							<ShortName>Dig Poof2.wav</ShortName>
+							<Path>SFX\Dig Poof2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="304916205" Language="SFX">
+							<ShortName>Dig Poof3.wav</ShortName>
+							<Path>SFX\Dig Poof3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="420939890" Language="SFX">
+							<ShortName>Dirtandrocksfalling3.wav</ShortName>
+							<Path>SFX\Dirtandrocksfalling3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="492496285" Language="SFX">
+							<ShortName>Dig Poof4.wav</ShortName>
+							<Path>SFX\Dig Poof4_1A46E174.wem</Path>
+						</File>
+						<File Id="570534142" Language="SFX">
+							<ShortName>Dirtandrocksfalling2.wav</ShortName>
+							<Path>SFX\Dirtandrocksfalling2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="902568669" Language="SFX">
+							<ShortName>Dirtandrocksfalling1.wav</ShortName>
+							<Path>SFX\Dirtandrocksfalling1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3621073518" Name="EnemyGrowl" ObjectPath="\Events\Default Work Unit\EnemyGrowl" MaxAttenuation="100." DurationType="OneShot" DurationMin="1.270227" DurationMax="3.980023">
+					<IncludedMemoryFiles>
+						<File Id="190882544" Language="SFX">
+							<ShortName>EnemyBunny 1(7).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(7)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="197325531" Language="SFX">
+							<ShortName>EnemyBunny 1(8).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(8)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="221226673" Language="SFX">
+							<ShortName>EnemyBunny 1(6).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(6)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="404675934" Language="SFX">
+							<ShortName>EnemyBunny 1(9).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(9)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="510868528" Language="SFX">
+							<ShortName>EnemyBunny 1(4).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(4)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="812711002" Language="SFX">
+							<ShortName>EnemyBunny 1(5).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(5)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1008286718" Language="SFX">
+							<ShortName>EnemyBunny 1(3).wav</ShortName>
+							<Path>SFX\EnemyBunny 1(3)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3663202250" Name="EnemyMoan" ObjectPath="\Events\Default Work Unit\EnemyMoan" MaxAttenuation="100." DurationType="OneShot" DurationMin="3.087936" DurationMax="5.680703">
+					<IncludedMemoryFiles>
+						<File Id="157676568" Language="SFX">
+							<ShortName>Enemy Moan 4(10).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(10)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="233870218" Language="SFX">
+							<ShortName>Enemy Moan 4(6).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(6)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="483799909" Language="SFX">
+							<ShortName>Enemy Moan 4(5).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(5)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="485077574" Language="SFX">
+							<ShortName>Enemy Moan 4(9).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(9)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="546958333" Language="SFX">
+							<ShortName>Enemy Moan 4(8).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(8)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="565726934" Language="SFX">
+							<ShortName>Enemy Moan 4(7).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(7)_3F75BDB9.wem</Path>
+						</File>
+						<File Id="902713250" Language="SFX">
+							<ShortName>Enemy Moan 4(11).wav</ShortName>
+							<Path>SFX\Enemy Moan 4(11)_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="2334881412" Name="DistanceReverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DistanceReverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1995458661" Name="GimmeCarrot" ObjectPath="\Events\Default Work Unit\GimmeCarrot" DurationType="OneShot" DurationMin="1.387392" DurationMax="1.738594">
+					<IncludedMemoryFiles>
+						<File Id="288198266" Language="SFX">
+							<ShortName>Rabbit Speech 1.wav</ShortName>
+							<Path>SFX\Rabbit Speech 1_10C4C929.wem</Path>
+						</File>
+						<File Id="801917381" Language="SFX">
+							<ShortName>Rabbit Speech 1(3).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(3)_10C4C929.wem</Path>
+						</File>
+						<File Id="937474425" Language="SFX">
+							<ShortName>Rabbit Speech 1(2).wav</ShortName>
+							<Path>SFX\Rabbit Speech 1(2)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3978245845" Name="Pickup" ObjectPath="\Events\Default Work Unit\Pickup" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3978245845" Name="Pickup" ObjectPath="\Triggers\Default Work Unit\Pickup"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="4152723942" Name="PickupBad" ObjectPath="\Events\Default Work Unit\PickupBad" DurationType="OneShot" DurationMin="4.8" DurationMax="4.8">
+					<IncludedMemoryFiles>
+						<File Id="944743218" Language="SFX">
+							<ShortName>PickupBad.wav</ShortName>
+							<Path>SFX\PickupBad_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3750377736" Name="PostMusic" ObjectPath="\Events\Default Work Unit\Music\PostMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="19184831" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Glock.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Glock_9EDFC787.wem</Path>
+						</File>
+						<File Id="31363630" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - Drums.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - Drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="48349691" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Flutes(2).wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Flutes(2)_9EDFC787.wem</Path>
+						</File>
+						<File Id="68372572" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - Flutes.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - Flutes_9EDFC787.wem</Path>
+						</File>
+						<File Id="79866956" Language="SFX">
+							<ShortName>BunnyD150bpm9L - ViolinStaccato.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - ViolinStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="95507218" Language="SFX">
+							<ShortName>BunnyC150bpm9L - Winds.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - Winds_9EDFC787.wem</Path>
+						</File>
+						<File Id="96089919" Language="SFX">
+							<ShortName>BunnyB150bpm9L - Winds.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - Winds_9EDFC787.wem</Path>
+						</File>
+						<File Id="114860930" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Violas Staccato.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Violas Staccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="153807513" Language="SFX">
+							<ShortName>BunnyC150bpm9L - ViolinStaccato.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - ViolinStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="239312239" Language="SFX">
+							<ShortName>BunnyB150bpm9L - BassStaccato.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - BassStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="290998427" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Flutes(3).wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Flutes(3)_9EDFC787.wem</Path>
+						</File>
+						<File Id="305966815" Language="SFX">
+							<ShortName>BunnyC150bpm9L - BassStaccato.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - BassStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="416222479" Language="SFX">
+							<ShortName>BunnyB150bpm9L - ViolinStaccato.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - ViolinStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="417179945" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - BassStaccato.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - BassStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="427935263" Language="SFX">
+							<ShortName>BunnyC150bpm9L - Drums.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - Drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="462319159" Language="SFX">
+							<ShortName>BunnyB150bpm9L - Violas Staccato.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - Violas Staccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="557754929" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - Winds.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - Winds_9EDFC787.wem</Path>
+						</File>
+						<File Id="568485600" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - Glock.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - Glock_9EDFC787.wem</Path>
+						</File>
+						<File Id="573502485" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - ViolinStaccato.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - ViolinStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="625002143" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Winds.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Winds_9EDFC787.wem</Path>
+						</File>
+						<File Id="650611706" Language="SFX">
+							<ShortName>BunnyC150bpm9L - Violas Staccato.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - Violas Staccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="656484968" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Drums.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="700378716" Language="SFX">
+							<ShortName>BunnyA150bpm9L1_4P - Violas Staccato.wav</ShortName>
+							<Path>SFX\BunnyA150bpm9L1_4P - Violas Staccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="712774642" Language="SFX">
+							<ShortName>BunnyD150bpm9L - BassStaccato.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - BassStaccato_9EDFC787.wem</Path>
+						</File>
+						<File Id="731292806" Language="SFX">
+							<ShortName>BunnyD150bpm9L - Flutes.wav</ShortName>
+							<Path>SFX\BunnyD150bpm9L - Flutes_9EDFC787.wem</Path>
+						</File>
+						<File Id="737540936" Language="SFX">
+							<ShortName>Pickup3Tone.wav</ShortName>
+							<Path>SFX\Pickup3Tone_D79FB2B7.wem</Path>
+						</File>
+						<File Id="795931700" Language="SFX">
+							<ShortName>BunnyB150bpm9L - Glock.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - Glock_9EDFC787.wem</Path>
+						</File>
+						<File Id="831893341" Language="SFX">
+							<ShortName>BunnyB150bpm9L - Flutes.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - Flutes_9EDFC787.wem</Path>
+						</File>
+						<File Id="914841106" Language="SFX">
+							<ShortName>BunnyC150bpm9L - Flutes.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - Flutes_9EDFC787.wem</Path>
+						</File>
+						<File Id="924249090" Language="SFX">
+							<ShortName>BunnyC150bpm9L - Glock.wav</ShortName>
+							<Path>SFX\BunnyC150bpm9L - Glock_9EDFC787.wem</Path>
+						</File>
+						<File Id="1064672859" Language="SFX">
+							<ShortName>BunnyB150bpm9L - Drums.wav</ShortName>
+							<Path>SFX\BunnyB150bpm9L - Drums_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2951963734" Name="StormPlay" ObjectPath="\Events\Default Work Unit\StormPlay" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="98814477" Language="SFX">
+							<ShortName>RainStorm120bpm11E113L.wav</ShortName>
+							<Path>SFX\RainStorm120bpm11E113L_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3723974632" Name="StormStop" ObjectPath="\Events\Default Work Unit\StormStop" DurationType="OneShot" DurationMin="60." DurationMax="60.">
+					<IncludedMemoryFiles>
+						<File Id="613126712" Language="SFX">
+							<ShortName>FrontYardWindyDay(3).wav</ShortName>
+							<Path>SFX\FrontYardWindyDay(3)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<Triggers>
+				<Trigger Id="3978245845" Name="Pickup" ObjectPath="\Triggers\Default Work Unit\Pickup"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

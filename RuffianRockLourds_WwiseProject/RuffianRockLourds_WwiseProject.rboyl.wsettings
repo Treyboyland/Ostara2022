@@ -3,11 +3,19 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{29CF04B3-F848-4B52-9600-B559B8469E9C}">
 			<PropertyList>
+				<Property Name="Event Action List\{01096AB9-D8FF-4311-945D-72C4788565CE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{162004D2-BA0E-4641-A897-7DCDC0512C70}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1A866AD2-EB0F-4C10-A1D3-EA421FB07011}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3856D5ED-51C7-4967-917F-BDDCF63DD8A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6B8F3DFF-78CE-473E-A825-6795B447B5E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{84A159D7-A8DB-407E-83EC-1DD279FC6628}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{91213178-77CA-4C20-AAF2-5CA074572053}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9E35D495-5CE7-47F8-A98C-EE983682DAA5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A46A32A7-E7A3-49BC-B794-25B8658A73C9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B23DC4B7-8444-47AC-A644-60A3C3E44D2B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C6D57897-1E25-454B-B83C-E206508DF2C5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E029AC82-6AAA-4084-9D2E-EF4A1407AE54}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E6F80D8E-BE70-4337-BBCF-3761697A2BBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -47,6 +55,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{8831739B-29B0-47ED-B946-F32CA109CA1D}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{8831739B-29B0-47ED-B946-F32CA109CA1D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{A8B66250-6B0D-4DFC-8CA3-EE34C63D2D05}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>

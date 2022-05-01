@@ -18,14 +18,22 @@ public class Player : MonoBehaviour
     BoxCollider2D playerBody;
 
     [SerializeField]
+    PlayerDig playerDig;
+
+    [SerializeField]
     Animator animator;
 
     [SerializeField]
     Inventory inventory;
 
+    [SerializeField]
+    AK.Wwise.Event onPlayerDamaged;
+
     public Inventory Inventory { get { return inventory; } }
 
     public UnityEvent OnInventoryUpdated = new UnityEvent();
+
+    public UnityEvent OnPlayerDeath = new UnityEvent();
 
     private void Start()
     {
@@ -40,6 +48,7 @@ public class Player : MonoBehaviour
             controller.Speed = playerData.Speed;
             playerBody.size = playerData.ColliderSize;
             animator.runtimeAnimatorController = playerData.PlayerAnimator;
+            playerDig.DigTime = playerData.DigTime;
         }
     }
 
@@ -47,5 +56,24 @@ public class Player : MonoBehaviour
     {
         inventory.AddItem(item);
         OnInventoryUpdated.Invoke();
+    }
+
+    public void DamagePlayer()
+    {
+
+
+        inventory.RemoveItem("Carrot");
+        OnInventoryUpdated.Invoke();
+        onPlayerDamaged.Post(gameObject);
+        if (inventory.GetNumberOfItem("Carrot") == 0)
+        {
+            Kill();
+        }
+    }
+
+    void Kill()
+    {
+        OnPlayerDeath.Invoke();
+        gameObject.SetActive(false);
     }
 }

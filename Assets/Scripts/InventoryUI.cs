@@ -20,13 +20,13 @@ public class InventoryUI : MonoBehaviour
         itemUIPool.DisableAll();
         foreach (var item in player.Inventory)
         {
-            if(item.ItemName == "Carrot")
+            if (item.ItemName == "Carrot" || item.ItemName == "Gem")
             {
                 continue;
             }
             for (int i = 0; i < item.Count; i++)
             {
-                var obj = (PickupUI) itemUIPool.GetObject();
+                var obj = (PickupUI)itemUIPool.GetObject();
                 obj.SetItem(item);
                 obj.gameObject.SetActive(true);
             }

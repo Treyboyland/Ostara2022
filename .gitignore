@@ -85,3 +85,5 @@ crashlytics-build.properties
 # WWise project file
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta
+
+Screenshots/

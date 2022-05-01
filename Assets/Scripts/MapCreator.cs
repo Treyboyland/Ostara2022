@@ -14,30 +14,6 @@ public class MapCreator : MonoBehaviour
     [SerializeField]
     Ground groundPrefab;
 
-    [SerializeField]
-    MonoPool gemPickup;
-
-    [SerializeField]
-    MonoPool carrotPickup;
-
-    [SerializeField]
-    MonoPool tomatoPickup;
-
-    [SerializeField]
-    MonoPool dandelionPickup;
-
-    [SerializeField]
-    Vector2Int tomatoRange;
-
-    [SerializeField]
-    Vector2Int carrotRange;
-
-    [SerializeField]
-    Vector2Int gemRange;
-
-    [SerializeField]
-    Vector2Int dandelionRange;
-
     List<Vector3Int> mapIndices = new List<Vector3Int>();
 
     List<Ground> groundPool = new List<Ground>();
@@ -45,6 +21,7 @@ public class MapCreator : MonoBehaviour
     [SerializeField]
     List<PickupData> pickups;
 
+    
 
     [Serializable]
     struct PickupData

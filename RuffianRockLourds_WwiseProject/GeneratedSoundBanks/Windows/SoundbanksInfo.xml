@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Users\rboyl\Documents\Unity Projects\RuffianRockLourds\RuffianRockLourds_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -25,7 +25,7 @@
 				<GameParameter Id="1755200717" Name="PlayerDepth" ObjectPath="\Game Parameters\Default Work Unit\PlayerDepth"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2858921253" Language="SFX" Hash="2351603909">
+		<SoundBank Id="2858921253" Language="SFX" Hash="2284525888">
 			<ObjectPath>\SoundBanks\Default Work Unit\AllInOne</ObjectPath>
 			<ShortName>AllInOne</ShortName>
 			<Path>AllInOne.bnk</Path>
@@ -126,7 +126,7 @@
 						</File>
 						<File Id="492496285" Language="SFX">
 							<ShortName>Dig Poof4.wav</ShortName>
-							<Path>SFX\Dig Poof4_4EA29DD8.wem</Path>
+							<Path>SFX\Dig Poof4_1A46E174.wem</Path>
 						</File>
 						<File Id="570534142" Language="SFX">
 							<ShortName>Dirtandrocksfalling2.wav</ShortName>

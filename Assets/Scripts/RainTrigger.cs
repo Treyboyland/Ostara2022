@@ -29,7 +29,7 @@ public class RainTrigger : MonoBehaviour
 
         for(int i = 0; i < numCollisionEvents; i++)
         {
-            rainDropEvent.Post(gameObject);
+            //rainDropEvent.Post(gameObject);
         }
 
         //Debug.LogWarning("Particles hit this frame: " + numCollisionEvents);

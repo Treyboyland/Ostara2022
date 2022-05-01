@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class RainController : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class RainController : MonoBehaviour
 
     [SerializeField]
     AK.Wwise.Event stormStopEvent;
+
+    public UnityEvent OnRainStarted = new UnityEvent();
+
+    public UnityEvent OnRainStopped = new UnityEvent();
 
     private void Start()
     {
@@ -46,6 +51,7 @@ public class RainController : MonoBehaviour
         {
             rain.Play();
             stormPlayEvent.Post(gameObject);
+            OnRainStarted.Invoke();
             yield return new WaitForSeconds(GetRandomRainTime());
         }
 
@@ -53,9 +59,11 @@ public class RainController : MonoBehaviour
         {
             rain.Stop();
             stormStopEvent.Post(gameObject);
+            OnRainStopped.Invoke();
             yield return new WaitForSeconds(GetRandomWaitTime());
             rain.Play();
             stormPlayEvent.Post(gameObject);
+            OnRainStarted.Invoke();
             yield return new WaitForSeconds(GetRandomRainTime());
         }
     }

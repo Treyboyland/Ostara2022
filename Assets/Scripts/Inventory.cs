@@ -57,6 +57,21 @@ public struct Inventory : IEnumerable<Item>
         items.Add(item);
     }
 
+    public void RemoveItem(string itemName, int count = 1)
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            var currentItem = items[i];
+
+            if (currentItem.ItemName == itemName)
+            {
+                currentItem.Count = Mathf.Max(0, currentItem.Count - count);
+                items[i] = currentItem;
+                return;
+            }
+        }
+    }
+
     IEnumerator IEnumerable.GetEnumerator()
     {
         //Explicit interface implementation https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/explicit-interface-implementation
@@ -66,7 +81,6 @@ public struct Inventory : IEnumerable<Item>
 
     public IEnumerator<Item> GetEnumerator()
     {
-
         foreach (var item in items)
         {
             yield return item;

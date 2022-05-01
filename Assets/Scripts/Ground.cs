@@ -22,6 +22,8 @@ public class Ground : MonoBehaviour
 
     public UnityEvent OnDirtBroken;
 
+    public UnityEvent<float> OnProgressUpdate = new UnityEvent<float>();
+
     bool isDigging = false;
 
     bool isDugOut = false;
@@ -60,6 +62,7 @@ public class Ground : MonoBehaviour
         isDigging = false;
         StopAllCoroutines();
         digTimeRTPC.SetGlobalValue(0);
+        OnProgressUpdate.Invoke(0);
     }
 
     void ResetGround()
@@ -67,6 +70,7 @@ public class Ground : MonoBehaviour
         groundCollider.enabled = true;
         frontSprite.enabled = true;
         isDugOut = false;
+        OnProgressUpdate.Invoke(0);
     }
 
     void DigOut()
@@ -87,10 +91,11 @@ public class Ground : MonoBehaviour
             elapsed += Time.deltaTime;
             float progress = elapsed / secondsToWait * 100;
             digTimeRTPC.SetGlobalValue(Mathf.Min(progress, 100));
+            OnProgressUpdate.Invoke(progress);
             yield return null;
         }
 
-
+        OnProgressUpdate.Invoke(100);
         DigOut();
         digTimeRTPC.SetGlobalValue(0);
         isDigging = false;
