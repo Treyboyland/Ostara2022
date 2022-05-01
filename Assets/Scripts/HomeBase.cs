@@ -94,11 +94,6 @@ public class HomeBase : MonoBehaviour
         OnBaseReached.Invoke();
         player.gameObject.SetActive(false);
         player.transform.position = spawnLocation;
-        var playerBody = player.GetComponent<Rigidbody2D>();
-        if (playerBody != null)
-        {
-            playerBody.velocity = Vector2.zero;
-        }
         SetBunnySelectionsActive(true);
     }
 

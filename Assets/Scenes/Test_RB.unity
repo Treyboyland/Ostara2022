@@ -7169,6 +7169,7 @@ MonoBehaviour:
   xRange: {x: -10, y: 10}
   depth: 20
   groundPrefab: {fileID: 5046000129670905927, guid: 14643675a5c991d4ea8732a417d4c658, type: 3}
+  homeBase: {fileID: 1009591478}
   pickups:
   - Pool: {fileID: 1461976132}
     Range: {x: 2, y: 5}

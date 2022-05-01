@@ -38,6 +38,11 @@ public class PlayerController : MonoBehaviour
     {
 
     }
+    private void OnDisable()
+    {
+        body.velocity = Vector2.zero;
+        movementVector = Vector2.zero;
+    }
 
     // Update is called once per frame
     void FixedUpdate()

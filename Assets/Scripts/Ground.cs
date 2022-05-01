@@ -65,7 +65,7 @@ public class Ground : MonoBehaviour
         OnProgressUpdate.Invoke(0);
     }
 
-    void ResetGround()
+    public void ResetGround()
     {
         groundCollider.enabled = true;
         frontSprite.enabled = true;

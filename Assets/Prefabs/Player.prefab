@@ -341,6 +341,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: aa874860498e23a45acb1ac6aed8ae49, type: 2}
+  body: {fileID: 3015217150368946145}
   OnInventoryUpdated:
     m_PersistentCalls:
       m_Calls: []

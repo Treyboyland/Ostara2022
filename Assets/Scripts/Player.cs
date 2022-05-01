@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     AK.Wwise.Event onPlayerDamaged;
 
+    [SerializeField]
+    Rigidbody2D body;
+
     public Inventory Inventory { get { return inventory; } }
 
     public UnityEvent OnInventoryUpdated = new UnityEvent();

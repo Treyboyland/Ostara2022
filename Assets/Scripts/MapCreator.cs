@@ -14,20 +14,34 @@ public class MapCreator : MonoBehaviour
     [SerializeField]
     Ground groundPrefab;
 
+    [SerializeField]
+    HomeBase homeBase;
+
     List<Vector3Int> mapIndices = new List<Vector3Int>();
 
     List<Ground> groundPool = new List<Ground>();
 
+    List<Ground> currentGround = new List<Ground>();
+
     [SerializeField]
     List<PickupData> pickups;
 
-    
+
 
     [Serializable]
     struct PickupData
     {
         public MonoPool Pool;
         public Vector2Int Range;
+    }
+
+    private void Awake()
+    {
+        homeBase.OnBaseReached.AddListener(() =>
+        {
+            ResetGround();
+            CreatePickups();
+        });
     }
 
 
@@ -66,10 +80,12 @@ public class MapCreator : MonoBehaviour
         return CreateGround();
     }
 
-    // Update is called once per frame
-    void Update()
+    void ResetGround()
     {
-
+        foreach (var ground in currentGround)
+        {
+            ground.ResetGround();
+        }
     }
 
     void CreateMap()
@@ -87,6 +103,7 @@ public class MapCreator : MonoBehaviour
                 var ground = GetGround();
                 ground.SetLocation(position);
                 ground.gameObject.SetActive(true);
+                currentGround.Add(ground);
             }
 
         }
